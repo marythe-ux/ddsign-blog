@@ -75,9 +75,9 @@ article.postItem{border:2px dotted var(--line);padding:15px;margin:0 0 2em}
 .entry-content code{font-family:var(--mono);font-size:.9em}
 .entry-content table{border-collapse:collapse;display:block;overflow-x:auto;margin:1em 0}
 .entry-content th,.entry-content td{border:1px solid var(--line);padding:6px 10px}
-.entry-content .embed{position:relative;aspect-ratio:16/9;margin:1em 0}
-.entry-content .embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.entry-content iframe{max-width:100%;border:0}
+.entry-content .embed{margin:1em 0}
+/* Vídeos: siempre al ancho de la columna y en 16:9, aunque el HTML original traiga tamaños o posición fijos */
+.entry-content iframe{position:static!important;display:block;width:100%!important;max-width:100%;height:auto!important;aspect-ratio:16/9;border:0;margin:1em 0}
 .entry-content hr{border:0;border-top:2px dotted var(--line);margin:1.5em 0}
 
 /* Botón "+" */

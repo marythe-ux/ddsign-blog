@@ -1,0 +1,70 @@
+# Configuración de Pages CMS (https://pagescms.org)
+media:
+  input: public/wp-content/uploads
+  output: /wp-content/uploads
+  categories: [image]
+
+content:
+  - name: posts
+    label: Entradas
+    type: collection
+    path: src/content/posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: date
+        label: Fecha de publicación
+        type: date
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm:ss"
+      - name: draft
+        label: Borrador (no se publica)
+        type: boolean
+        default: false
+      - name: tags
+        label: Etiquetas
+        type: string
+        list: true
+      - name: image
+        label: Imagen destacada (portada)
+        type: image
+      - name: excerpt
+        label: Resumen para la portada (opcional)
+        type: text
+      - name: slug
+        label: Dirección web (opcional)
+        description: Si lo dejas vacío se genera a partir del título.
+        type: string
+      - name: body
+        label: Texto
+        type: rich-text
+
+  - name: pages
+    label: Páginas
+    type: collection
+    path: src/content/pages
+    view:
+      fields: [title]
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: slug
+        label: Dirección web
+        type: string
+        required: true
+      - name: body
+        label: Texto
+        type: rich-text

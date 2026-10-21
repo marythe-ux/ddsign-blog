@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { getPosts, SITE } from '../lib/blog';
+const all = await getPosts();
+const pages = Math.ceil(all.length / SITE.perPage);
+---
+<Base current="home">
+  <PostList posts={all.slice(0, SITE.perPage)} page={1} pages={pages} />
+</Base>

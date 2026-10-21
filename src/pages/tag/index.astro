@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getPosts, tagSlug } from '../../lib/blog';
+const all = await getPosts();
+const counts = new Map<string, number>();
+all.forEach((p) => p.data.tags.forEach((t) => counts.set(t, (counts.get(t) ?? 0) + 1)));
+const tags = [...counts].sort((a, b) => a[0].localeCompare(b[0], 'es'));
+---
+<Base title="Temas" current="tags" sidebar={false}>
+  <div id="archive-title">Todos los <strong>temas</strong><span class="corners"></span></div>
+  <div class="rightBox"><ul class="tag-cloud" style="text-align:center;padding:10px">{tags.map(([t, n]) => <li style="display:inline-block;margin:7px 5px;border:1px solid var(--blue)"><a href={`/tag/${tagSlug(t)}/`}>{t}<small>{n}</small></a></li>)}</ul></div>
+</Base>

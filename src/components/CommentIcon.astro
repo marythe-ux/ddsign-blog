@@ -1,0 +1,6 @@
+---
+interface Props { count: number; href?: string }
+const { count, href } = Astro.props;
+const label = count === 1 ? '1 comentario' : `${count} comentarios`;
+---
+<ul class="comentarios"><li><a href={href} title={label} aria-label={label}><span class="icon icon-comentarios" aria-hidden="true"></span><span>{count}</span></a></li></ul>

@@ -1,0 +1,64 @@
+---
+import '../styles.css';
+import { SITE, getPosts, tagSlug } from '../lib/blog';
+interface Props { title?: string; description?: string; image?: string; current?: string; sidebar?: boolean }
+const { title, description = SITE.description, image, current, sidebar = true } = Astro.props;
+const fullTitle = title ? `${title} « ${SITE.title}` : `${SITE.title} · comunicación digital y experiencia de usuario`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const counts = new Map<string, number>();
+(await getPosts()).forEach((p) => p.data.tags.forEach((t) => counts.set(t, (counts.get(t) ?? 0) + 1)));
+const topTags = [...counts].sort((a, b) => b[1] - a[1]).slice(0, 20).sort((a, b) => a[0].localeCompare(b[0], 'es'));
+const year = new Date().getFullYear();
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{fullTitle}</title>
+  <meta name="description" content={description}>
+  <meta name="author" content="Ddsign - María Rey">
+  <link rel="canonical" href={canonical}>
+  <link rel="icon" href="/theme/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/feed.xml">
+  <meta property="og:title" content={title ?? SITE.title}>
+  <meta property="og:description" content={description}>
+  {image && <meta property="og:image" content={new URL(image, Astro.site)}>}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap">
+</head>
+<body>
+<div id="container">
+  <div id="mainWrapper">
+    <header class="site-header">
+      <div id="logo"><a href="/" title="Ddsign"><span class="sr-only">Ddsign</span></a></div>
+    </header>
+    <nav class="menu" aria-label="Principal">
+      <ul>
+        <li><a href="/" aria-current={current === 'home' ? 'page' : undefined}>Blog</a></li>
+        <li><a href="/about/" aria-current={current === 'about' ? 'page' : undefined}>About</a></li>
+        <li><a href="/tag/" aria-current={current === 'tags' ? 'page' : undefined}>Temas</a></li>
+        <li><a href="/contacto/" aria-current={current === 'contacto' ? 'page' : undefined}>Contacto</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <main id="principal"><slot /></main>
+      {sidebar && (
+        <aside id="secundaria">
+          <div class="rightBox">
+            <h2><a href="/tag/">Temas</a></h2>
+            <ul class="tag-cloud">{topTags.map(([t, n]) => <li><a href={`/tag/${tagSlug(t)}/`}>{t}<small>{n}</small></a></li>)}</ul>
+          </div>
+        </aside>
+      )}
+    </div>
+  </div>
+  <div class="back"><a href="#logo">volver arriba ↑</a></div>
+</div>
+<footer id="footer">
+  <div class="foot">© 2006–{year} Ddsign</div>
+  <div class="redes"><a href="/feed.xml" title="RSS" aria-label="RSS"><span class="icon icon-rss"></span></a></div>
+</footer>
+</body>
+</html>

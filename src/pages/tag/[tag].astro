@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getPosts, tagSlug } from '../../lib/blog';
+export async function getStaticPaths() {
+  const all = await getPosts();
+  const map = new Map<string, { name: string; posts: typeof all }>();
+  for (const p of all) for (const t of p.data.tags) {
+    const s = tagSlug(t);
+    if (!map.has(s)) map.set(s, { name: t, posts: [] });
+    map.get(s)!.posts.push(p);
+  }
+  return [...map].map(([tag, v]) => ({ params: { tag }, props: v }));
+}
+const { name, posts } = Astro.props;
+---
+<Base title={name} current="tags">
+  <div id="archive-title">Mostrando posts etiquetados con "<strong>{name}</strong>"<span class="corners"></span></div>
+  {posts.map((p) => <PostCard post={p} />)}
+</Base>

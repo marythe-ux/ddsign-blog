@@ -14,6 +14,7 @@ for (const f of walk('dist')) {
   let s = fs.readFileSync(f, 'utf8');
   const out = s
     .replace(/(href|src|srcset|action)="\/(?!\/)/g, `$1="${base}/`)
+    .replace('<html lang="es"', `<html lang="es" data-base="${base}"`)
     .replace(/url\((["']?)\/(?!\/)/g, `url($1${base}/`);
   if (out !== s) { fs.writeFileSync(f, out); n++; }
 }

@@ -22,24 +22,24 @@ roots.forEach((c) => walk(c, 0));
 const fmt = (s: string) => formatDate(new Date(s + 'Z'));
 ---
 <Base title={post.data.title} description={excerpt(post, 30)} image={firstImage(post)}>
-  <article class="postItem">
-    <div class="titular"><h1>{post.data.title}</h1></div>
-    <div class="fecha">
+  <article class="postItem" data-pagefind-body>
+    <div class="titular" data-pagefind-meta={`date:${formatDate(post.data.date)}`}><h1 data-pagefind-meta="title">{post.data.title}</h1></div>
+    <div class="fecha" data-pagefind-ignore>
       <time class="entry-date" datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
       <CommentIcon count={comments.length} href={comments.length > 0 ? '#comentarios' : undefined} />
     </div>
-    {post.data.tags.length > 0 && <div class="tags">{post.data.tags.map((t) => <a href={`/tag/${tagSlug(t)}/`}>{t}</a>)}</div>}
+    {post.data.tags.length > 0 && <div class="tags" data-pagefind-ignore>{post.data.tags.map((t) => <a href={`/tag/${tagSlug(t)}/`}>{t}</a>)}</div>}
     <div class="entry-content"><Content /></div>
 
     {related.length > 0 && (
-      <div class="relacionados">
+      <div class="relacionados" data-pagefind-ignore>
         <h2><span class="icon icon-relacionados" aria-hidden="true"></span>Post relacionados</h2>
         {related.map((r) => <h3><a href={postUrl(r)}>{r.data.title}</a></h3>)}
       </div>
     )}
 
     {flat.length > 0 && (
-      <section id="comentarios">
+      <section id="comentarios" data-pagefind-ignore>
         <h2 class="comments-title"><span class="icon icon-comentarios" aria-hidden="true"></span>{flat.length === 1 ? '1 comentario' : `${flat.length} comentarios`}</h2>
         <p class="comments-note">Comentarios del blog original. Los comentarios están cerrados.</p>
         <ul class="commentlist">

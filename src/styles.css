@@ -183,3 +183,20 @@ ul.commentlist p{margin:.8em 0;white-space:pre-line}
 .relacionados h3 a{display:block;color:var(--fg);padding:.8em 1em;transition:background-color .3s,color .3s}
 .relacionados h3 a:hover{text-decoration:none;background:var(--blue)}
 @media (min-width:768px){.relacionados{margin-left:-30px;margin-right:-30px}}
+
+/* Buscador */
+.icon-lupa::before{content:"\e901"}
+.menu-row{display:flex;flex-direction:column;gap:6px}
+#searchBox{position:relative;width:100%}
+#searchBox input{width:100%;font-family:inherit;font-size:1.2em;font-weight:700;color:var(--fg);background:transparent;border:0;border-bottom:2px solid #333;border-radius:0;padding:5px 40px 5px 10px;-webkit-appearance:none;appearance:none}
+#searchBox input::placeholder{color:var(--fg);opacity:1}
+#searchBox input:focus{outline:none;border-bottom-color:var(--pink)}
+#searchBox input::-webkit-search-decoration,#searchBox input::-webkit-search-cancel-button{display:none}
+#searchBox button{position:absolute;right:0;bottom:5px;background:transparent;border:0;color:var(--fg);font-size:30px;cursor:pointer;padding:0}
+#searchBox button:hover{color:var(--pink)}
+.search-status{color:var(--muted);margin:0 0 1.5em}
+#search-results mark{background:none;color:var(--pink);font-weight:700}
+@media (min-width:960px){
+  .menu-row{flex-direction:row;align-items:center;justify-content:space-between}
+  #searchBox{width:25%}
+}

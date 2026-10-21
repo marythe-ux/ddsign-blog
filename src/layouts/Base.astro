@@ -34,6 +34,7 @@ const year = new Date().getFullYear();
     <header class="site-header">
       <div id="logo"><a href="/" title="Ddsign"><span class="sr-only">Ddsign</span></a></div>
     </header>
+    <div class="menu-row">
     <nav class="menu" aria-label="Principal">
       <ul>
         <li><a href="/" aria-current={current === 'home' ? 'page' : undefined}>Blog</a></li>
@@ -42,6 +43,12 @@ const year = new Date().getFullYear();
         <li><a href="/contacto/" aria-current={current === 'contacto' ? 'page' : undefined}>Contacto</a></li>
       </ul>
     </nav>
+    <form id="searchBox" role="search" action="/buscar/" method="get">
+      <label for="s" class="sr-only">Buscar en el blog</label>
+      <input type="search" id="s" name="q" placeholder="BUSCAR ..." autocomplete="off">
+      <button type="submit" aria-label="Buscar"><span class="icon icon-lupa" aria-hidden="true"></span></button>
+    </form>
+    </div>
     <div id="content">
       <main id="principal"><slot /></main>
       {sidebar && (

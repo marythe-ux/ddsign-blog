@@ -74,6 +74,8 @@ Tampoco es una solución perfecta porque puede que haya usuarios que no tengan a
 De todos modos, en ocasiones puede hacernos más pregunta mostrándonos una serie de imágenes para etiquetar. Esta solución además es apta para móvil.  
 [![turkey_captcha](/wp-content/uploads/2015/08/turkey_captcha.png)](http://googleonlinesecurity.blogspot.com.es/2014/12/are-you-robot-introducing-no-captcha.html)
 
+<div class="fuentes">
+
 #### FUENTES
 
 -   [Use It Better: Eight Alternatives to the Hated Captcha (Scientific American)](http://www.scientificamerican.com/article/pogue-8-alternatives-to-hated-captcha/ "scientificamerican.com")
@@ -82,3 +84,5 @@ De todos modos, en ocasiones puede hacernos más pregunta mostrándonos una seri
 -   [9 CAPTCHA Alternatives That Won’t Wreck Your UX](http://www.dtelepathy.com/blog/design/captcha-alternatives-better-ux "Better UX Captchas")
 -   [CAPTCHA Reworked| reCAPTCHA Easier and Mobile Friendly](https://blog.quadranet.com/captcha-reworked-recaptcha-easier-and-mobile-friendly/ "Mobile Friendly Captcha")
 -   [Alternative to captchas (W3C)](http://www.w3.org/TR/turingtest/ "Captcha W3C")
+
+</div>

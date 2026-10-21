@@ -17,9 +17,11 @@ Para controlar que se muestre una imagen concreta en Facebook cuando nuestra web
 
 Con todo esto cuando añadan la dirección de nuestra web a Facebook saldrá acompañada de esa imagen.  
 
-  
+<div class="fuentes">
 
 #### fuente:
 
   
 [Capstrat](http://www.capstrat.com/insights/blog/facebook-share-thumbnail-image/ "Capstrat")
+
+</div>

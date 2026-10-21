@@ -51,6 +51,10 @@ color:#fff;
 
 Está genial poder hacer esto sin plugin alguno. Este código lo he visto esta mañana y ya lo he probado y funciona de maravilla.
 
+<div class="fuentes">
+
 #### fuente
 
 [Sparklette Studio](http://design.sparklette.net/teaches/how-to-add-wordpress-paged-comments-without-a-plugin/ "How to add wordpress paged comments without a plugin")
+
+</div>

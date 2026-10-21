@@ -36,9 +36,11 @@ background: blue;
 
   
 
-  
+<div class="fuentes">
 
 #### FUENTES:
 
   
 [ww.fix-css.com](http://www.fix-css.com/cheat-sheets/css-hacks/)
+
+</div>

@@ -96,8 +96,12 @@ Ejemplos de webs que combinan varios de estos efectos son:
 [Bond, Licence to Drive](http://www.evanshalshaw.com/more/bondcars/c4.html)  
 [![efectos de scroll](/wp-content/uploads/2016/07/bond.png)](http://www.evanshalshaw.com/more/bondcars/c4.html)
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Premios Awwwards](http://www.awwwards.com/)
 -   [Microinteractions](http://microinteractions.com/)
 -   [The New Rules for Scrolling in Web Design](http://designmodo.com/scrolling-web-design/)
+
+</div>

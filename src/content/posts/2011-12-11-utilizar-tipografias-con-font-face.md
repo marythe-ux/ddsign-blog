@@ -45,6 +45,10 @@ Video sobre @font-face
 
 <iframe src="https://www.screenr.com/embed/aid" width="550" height="335" frameborder="0"></iframe>
 
+<div class="fuentes">
+
 #### Fuentes y más información
 
 [Using @font-face (CSS Tricks)](http://css-tricks.com/snippets/css/using-font-face/) [Embeber fuentes en tu sitio web, la guía definitiva (El Webmaster)](http://www.elwebmaster.com/general/embeber-fuentes-en-tu-sitio-web-la-guia-definitiva) [Font-face Guide (Six REvisions)](http://sixrevisions.com/css/font-face-guide/) [CodeAndMore](http://fontface.codeandmore.com/)
+
+</div>

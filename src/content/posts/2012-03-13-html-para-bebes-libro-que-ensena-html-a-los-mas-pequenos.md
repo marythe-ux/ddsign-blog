@@ -15,6 +15,10 @@ El libro tiene 16 páginas de gran colorido y con palabras positivas, todo codif
 
 Acceso a tienda online para [comprar el libro](http://www.thinkgeek.com/geek-kids/1-3-years/eacc/?cpg=cj&ref=&CJURL=&CJID=2617611#tabs "HTML for Babies (Vol 1)").
 
+<div class="fuentes">
+
 #### fuentes
 
 [laughingsquid.com](http://laughingsquid.com/html-for-babies-book-introduces-web-design-concepts-to-babies/)
+
+</div>

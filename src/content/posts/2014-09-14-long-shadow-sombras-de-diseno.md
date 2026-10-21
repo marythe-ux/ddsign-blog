@@ -49,6 +49,10 @@ También nos encontramos por la red descargables de acciones instalables para cr
 
 [Long Shadows Generator](http://sandbox.juan-i.com/longshadows/) es una herramienta online que nos ayuda a crear el efecto de sombras deseados gracias a unos controles a modo de slider y al final nos proporciona el código CSS generado que podemos copiar y pegar en nuestra hoja de estilos CSS.
 
+<div class="fuentes">
+
 #### Fuentes
 
 -   [Long Shadow Design(Hongkiat.com)](http://www.hongkiat.com/blog/long-shadow-design/)
+
+</div>

@@ -35,7 +35,11 @@ En [Coverr.co](http://www.coverr.co/ "Coverr.co") cuelgan siete vídeos nuevos c
 
 [Mazwai](http://mazwai.com "Mazwai") recoge una buena colección de vídeos de estilo *slow motion* y *time lapse* que podrían ajustarse perfectamente como background de una web.
 
+<div class="fuentes">
+
 #### RELACIONADOS
 
 -   [Elemento video en HTML5](http://www.w3.org/wiki/HTML/Elements/video "HTML5 VIDEO")
 -   [Should I use a video as a background? (Css Tricks)](https://css-tricks.com/should-i-use-a-video-as-a-background/?ref=webdesignernews.com "Should I use a video as a background")
+
+</div>

@@ -43,6 +43,10 @@ body.ie8 #goodAntiAliasing {
 
 Te recomiendo leer mi post posterior sobre este tema, porque me convence más esta solución: [Mejorar el aspecto del @font-face embebido en IE7 e IE8](/2012/05/18/mejorar-el-aspecto-del-font-face-embebido-en-explorer-7-y-8/)
 
+<div class="fuentes">
+
 #### fuente:
 
 [How to make cleartype font face and css visual filters play nicely together](http://www.useragentman.com/blog/2010/09/02/how-to-make-cleartype-font-face-fonts-and-css-visual-filters-play-nicely-together/)
+
+</div>

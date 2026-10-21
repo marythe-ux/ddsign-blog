@@ -162,3 +162,24 @@ ul.commentlist p{margin:.8em 0;white-space:pre-line}
   ul.tag-cloud a{padding:.8em 1em}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}.readmore:hover{transform:none}}
+
+/* Fuentes (bloque al final de algunas entradas) */
+.icon-fuentes::before{content:"\e908"}
+.icon-relacionados::before{content:"\e902"}
+.entry-content .fuentes{margin:1.5em 0 .8em;padding:.5em 0;border-top:2px dotted var(--line)}
+.entry-content .fuentes h4{display:flex;align-items:center;gap:10px;text-transform:uppercase;font-weight:700;font-size:1.2em;color:var(--blue);padding:15px 0 10px}
+.entry-content .fuentes h4::before{content:"\e908";font-family:"icomoon"!important;font-weight:normal;font-size:37px;line-height:1;color:var(--blue)}
+.entry-content .fuentes ul{list-style:none;padding:0;margin:0}
+.entry-content .fuentes li{padding:.6em 0;border-bottom:1px dotted var(--line)}
+.entry-content .fuentes p{padding:0}
+.entry-content .fuentes p a{display:block;padding:.6em 0;border-bottom:1px dotted var(--line)}
+.entry-content .fuentes p br{display:none}
+
+/* Post relacionados */
+.relacionados{border-top:2px dotted var(--line);border-bottom:2px dotted var(--line);margin:2em -15px}
+.relacionados h2{display:flex;align-items:center;color:var(--pink);font-size:1.5em;font-weight:700;padding:.5em 1em;text-transform:uppercase}
+.relacionados h2 .icon{margin-right:10px;font-size:47px;color:var(--fg)}
+.relacionados h3{border-top:2px dotted var(--line);font-size:16px;margin:0}
+.relacionados h3 a{display:block;color:var(--fg);padding:.8em 1em;transition:background-color .3s,color .3s}
+.relacionados h3 a:hover{text-decoration:none;background:var(--blue)}
+@media (min-width:768px){.relacionados{margin-left:-30px;margin-right:-30px}}

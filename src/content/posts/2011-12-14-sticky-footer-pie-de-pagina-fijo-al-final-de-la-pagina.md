@@ -103,6 +103,10 @@ Y en ese archivo ie6.css ponemos:
 
 Se puede ver la [DEMO](http://fortysevenmedia.com/blog/archives/making_your_footer_stay_put_with_css "Making your footer stay put with CSS") en el tutorial original de [FortySeven Media](http://fortysevenmedia.com/ "FortySeven Media").
 
+<div class="fuentes">
+
 #### FUENTE
 
 [Making your footer stay put with CSS](http://fortysevenmedia.com/blog/archives/making_your_footer_stay_put_with_css "Makin your footer stay put with CSS")
+
+</div>

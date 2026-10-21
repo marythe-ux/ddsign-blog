@@ -36,6 +36,10 @@ Esta función añadirá el siguiente texto:
 
 © 2009 – 2010
 
+<div class="fuentes">
+
 #### fuentes
 
 [How to Add a Dynamic Copyright Date in WordPress Footer](http://www.wpbeginner.com/wp-tutorials/how-to-add-a-dynamic-copyright-date-in-wordpress-footer/ "How to Add a Dynamic Copyright Date")
+
+</div>

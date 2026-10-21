@@ -26,8 +26,12 @@ Aunque el cumpleaños de Mickey se celebra hoy, Steamboat Willie es la tercera a
 
 <div class="embed"><iframe width="640" height="480" src="https://www.youtube.com/embed/DnjSVSykNsA" frameborder="0" allowfullscreen=""></iframe></div>
 
+<div class="fuentes">
+
 #### FUENTE:
 
 [Wikipedia](http://es.wikipedia.org/wiki/Mickey_Mouse "Mickey Mouse")
 
 [Informardor](http://www.informador.com.mx/entretenimiento/2013/497637/6/mickey-mouse-85-anos-de-maravillar-al-mundo.htm "Informador.com.mx")
+
+</div>

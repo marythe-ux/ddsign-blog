@@ -52,8 +52,12 @@ En este [artículo de Mashable](http://mashable.com/2013/08/14/flat-design-icons
 
 Recomendaciones sobre tipografía para Flat design en [Desigmodo](http://designmodo.com/flat-design-fonts/ "Flat design fonts (Designmodo)").
 
+<div class="fuentes">
+
 #### Fuentes:
 
 [UX magazine](http://uxmag.com/articles/a-look-at-flat-design-and-why-its-significant "uxmag.com")
 
 [1stWebDesigner](http://www.1stwebdesigner.com/design/flat-design-principles/ "1stwebdesigner")
+
+</div>

@@ -10,6 +10,10 @@ Qtranslate Slug es un *addon* para qTranslate que le añade la capacidad de pode
 
 Qtranslate Slug también arregla algunas deficiencias de qTranslate desde la versión 3.0 de WordPress. Este plugin funciona con qTranslate desde la versión 2.5.8
 
+<div class="fuentes">
+
 #### Fuentes:
 
 [Qtranslate Slug](http://not-only-code.github.com/qtranslate-slug/)
+
+</div>

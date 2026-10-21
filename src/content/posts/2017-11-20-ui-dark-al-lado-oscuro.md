@@ -57,8 +57,12 @@ Siendo el color uno de los aspectos más importantes que afecta el nivel de usab
 
 Yo me lo planteé alguna vez y este es una de los prototipos que me planteé. No lo he descartado del todo... ya veremos lo que el futuro deparará. ![00_cookies](/wp-content/uploads/2017/11/00_cookies.png)
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Dark side of UI benefits of dark background](https://tubikstudio.com/dark-side-of-ui-benefits-of-dark-background/)
 -   [Light and darkness in UI design matter of choice](https://tubikstudio.com/light-and-darkness-in-ui-design-matter-of-choice/)
 -   [Dark or light UI, ehe UX influence](https://uxdesign.cc/dark-or-light-ui-the-ux-influence-ca6df6aff390)
+
+</div>

@@ -25,9 +25,11 @@ Le añaden un filtro especial y le adjuntan una imagen (que es trnasparente) y l
 
 En la web que os he indicado podéis bajaros en ejemplo en un .zip y además ver cómo funciona en vuestro explorer.  
 
-  
+<div class="fuentes">
 
 #### fuente:
 
   
 [Allcreatives.net](http://allcreatives.net/2009/12/05/smoother-font-face-embedding-in-ie-7-8/ "moother-font-face-embedding-in-ie-7-8/")
+
+</div>

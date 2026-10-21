@@ -33,9 +33,13 @@ La mejor plantilla que he encontrado para [Sketch](/2017/06/05/sketch-tutoriales
 
 Así que siempre que usemos Bootstrap como una ayuda y no una limitación, bienvenido sea. Enjoy!
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Bootstrap, web oficial](http://getbootstrap.com/)
 -   [Bootstrap (framework), Wikipedia](https://es.wikipedia.org/wiki/Bootstrap_\(framework\)#Caracter.C3.ADsticas)
 -   [The Net Ninja Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g_69kOfXICzT_hZ79_td99)
 -   [Dan Rodney Sketch Bootstrap grid](https://www.danrodney.com/blog/sketch-bootstrap-grid/)
+
+</div>

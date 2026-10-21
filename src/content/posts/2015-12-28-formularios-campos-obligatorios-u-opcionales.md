@@ -16,6 +16,8 @@ En diseño se nos presenta el dilema de cómo indicarle al usuario que campos so
 
 Esta práctica se reconsidera en función de las nuevas investigaciones citadas anteriormente. Si todos los campos de un formulario fueran obligatorios, por ejemplo, llenar todos estos inputs de asteriscos y textos rojos provoca ruido visual y un sentimiento de alarma en el usuario. Es preferible limpiar visualmente el formulario y eliminar esta sensación de alarma. El usuario puede sentirse agobiado ya antes de comenzar. Quizás sea menos estresante y más efectivo, marcar los que son opcionales y dejar sin marcar los obligatorios. Se entenderán por defecto. Le comentamos los campos que no tienen por qué rellenar. Por detectar los pocos campos opcionales marcadas, el usuario sabe automáticamente que el resto de los campos son obligatorios.
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [The privacy economics of voluntary over-disclosure in Web forms](http://preibusch.de/publications/Preibusch-Krol-Beresford__voluntary_over-disclosure.pdf "The privacy economics of voluntary over-disclosure in Web forms")
@@ -25,3 +27,5 @@ Esta práctica se reconsidera en función de las nuevas investigaciones citadas 
 -   [Marking Required vs. Optional form fields. (Luke W.)](http://www.lukew.com/ff/entry.asp?725 "Marking Required vs. Optional form fields")
 -   [What Impacts Web Form Conversion? (Luke W.)](http://www.lukew.com/ff/entry.asp?1416 "What Impacts Web Form Conversion?")
 -   [E-Commerce Checkouts Need to Mark Both Required and Optional Fields Explicitly (Only 9% Do So)](http://baymard.com/blog/required-optional-form-fields "E-Commerce Checkouts Need to Mark Both Required and Optional Fields Explicitly (Only 9% Do So)")
+
+</div>

@@ -44,6 +44,10 @@ Obtendremos un archivo de Sketch con símbolos que nos permitirán cambiar tanto
 
 Es muy versátil y a mí particularmente me gusta mucho. Ya lo he visto a lo largo de este año aplicado a varios proyectos.
 
+<div class="fuentes">
+
 #### Fuentes
 
 -   [Tendencias de diseño 2019](https://www.behance.net/gallery/71481981/2019-Design-Trends-Guide)
+
+</div>

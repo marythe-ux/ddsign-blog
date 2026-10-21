@@ -55,6 +55,8 @@ Apuntan en la propia web de [Adobe Edge Web Fonts](http://www.edgefonts.com/ "Ed
 \# Dos familias tipográficas
 use.edgefonts.net/averia-libre;bree-serif.js
 
+<div class="fuentes">
+
 #### fuentes:
 
 [Adobe Edge Web Fonts](http://www.edgefonts.com/ "Adobe Edge Web Fonts")
@@ -62,3 +64,5 @@ use.edgefonts.net/averia-libre;bree-serif.js
 [The Absolute Begginner's Guide using Adobe's new Edge Web Fonts site (thenextweb.com)](http://thenextweb.com/dd/2012/10/01/the-absolute-beginners-guide-using-adobes-new-edge-web-fonts-site/ "The Absolute Begginner's Guide using Adobe's new Edge Web Fonts site")
 
 [Adobe Edge Web Fonts adding charm to words (1stwebdesigner.com)](http://www.1stwebdesigner.com/design/adobe-edge-web-fonts-adding-charm-to-words/ "Adobe Edge Web Fonts adding charm to words")
+
+</div>

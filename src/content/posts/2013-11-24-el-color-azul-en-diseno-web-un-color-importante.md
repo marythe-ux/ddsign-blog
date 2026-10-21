@@ -13,6 +13,10 @@ tags: ["color", "diseño web"]
 
 [![color azul en diseño web](/wp-content/uploads/2013/11/azul-1.jpg)](http://www.templatemonster.com/es/azul-en-diseno-web.php)
 
+<div class="fuentes">
+
 #### FUENTE
 
 [Azul en diseño web](#http://www.templatemonster.com/es/azul-en-diseno-web.php)
+
+</div>

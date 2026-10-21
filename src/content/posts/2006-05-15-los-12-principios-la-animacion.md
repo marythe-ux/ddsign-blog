@@ -84,6 +84,10 @@ Esto proporciona conexión emocional con el espectador. Se trata de la personali
 
 Ampliar en [Los 12 principios de Isaac Kerlow](http://www.3dyanimacion.com/nota_tapa.cfm?link=12principios)
 
+<div class="fuentes">
+
 #### Fuentes
 
 -   Recuperado del antiguo blog [Ddsign](https://ddsign.wordpress.com/2006/05/15/los-12-principios-de-la-animacion/)
+
+</div>

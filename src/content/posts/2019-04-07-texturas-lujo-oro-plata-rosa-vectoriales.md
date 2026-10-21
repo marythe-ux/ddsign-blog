@@ -24,8 +24,12 @@ Leo en este artículo de [Portaltic](https://www.europapress.es/portaltic/gadget
 
 [Descárgate este pack para crear diseños con textura dorada, plateada y dorado rosa](https://drive.google.com/file/d/1fOS4WvwxpVRS_0a6cmc3Og-ZmP8Qjeq7/view?usp=sharing)
 
+<div class="fuentes">
+
 #### FUENTES
 
 -   [Gold color meanings](https://www.lifewire.com/gold-color-meanings-1073963)
 -   [¿Por qué Apple está obsesionado con los productos de color 'oro'?](https://www.europapress.es/portaltic/gadgets/noticia-apple-obsesionado-productos-color-oro-20150430122244.htm)
 -   Psicología del color. Cómo actúan los colores sobre los sentimientos y la razón. Eva Heller. [Editorial Gustavo Gili](https://ggili.com/psicologia-del-color-libro.html)
+
+</div>

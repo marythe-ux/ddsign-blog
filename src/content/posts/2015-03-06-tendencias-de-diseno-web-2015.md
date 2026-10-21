@@ -183,6 +183,10 @@ Esta no es nuevo, pero sigue conviviendo con otras tendencias. Básicamente se t
 
 El flat design continúa como tendencia este año, se ha ido haciendo un gran hueco entre las empresas de tecnología y se está generalizando como opción de diseño.
 
+<div class="fuentes">
+
 #### Fuentes
 
 [Web design trends can expect to see in 2015 (TNW)](http://thenextweb.com/dd/2015/01/02/10-web-design-trends-can-expect-see-2015/12/) [Web design trends to look out for in 2015 (Elegant Themes)](http://www.elegantthemes.com/blog/resources/web-design-trends-to-look-out-for-in-2015)
+
+</div>

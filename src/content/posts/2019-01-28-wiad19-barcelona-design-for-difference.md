@@ -42,8 +42,12 @@ Estos son algunos de los conferenciantes que nos acompañarán:
 
 [Regístrate al evento en Eventbrite](https://www.eventbrite.co.uk/e/world-ia-day-2019-barcelona-tickets-51358432454)
 
+<div class="fuentes">
+
 #### Canales WIAD
 
 -   [Linkedin](https://www.linkedin.com/company/world-ia-day-barcelona/)
 -   [Facebook](https://www.facebook.com/worldiadaybarcelona/)
 -   [Twitter](https://twitter.com/WIADBarcelona)
+
+</div>

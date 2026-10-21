@@ -28,7 +28,11 @@ El año pasado asistí a las conferencias de Barcelona y estuvieron superinteres
 
 ¡Habrá regalos de All You Can Learn, Rosenfeld Media, IA Summit, Optimal Workshop, Sketch, Axure y otros!
 
+<div class="fuentes">
+
 #### UBICACIÓN E INSCRIPCIÓN
 
 -   Este año en Barcelona el evento WIAD tendrá lugar en el [Canòdrom](https://goo.gl/maps/reoXvj79tb52) (c/Concepció Arenal 165)
 -   [Más detalles e inscripción en WIAD 2018, Barcelona](https://2018.worldiaday.org/location/barcelona-spain)
+
+</div>

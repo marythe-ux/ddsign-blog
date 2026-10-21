@@ -92,6 +92,8 @@ Checklist o listas de verificación se utilizan al igual que las barras de progr
 
 Hotspots se utilizan a menudo para dar un poco de ayuda contextual para atraer a nuevos usuarios para activar ciertos elementos o características de su producto. Es frecuente que se muestren como animaciones para captar el ojo de un usuario.
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [UX Flows Onboarding](http://www.dtelepathy.com/blog/design/ux-flows-onboarding)
@@ -100,3 +102,5 @@ Hotspots se utilizan a menudo para dar un poco de ayuda contextual para atraer a
 -   [User onboarding guide](http://blog.invisionapp.com/user-onboarding-guide/)
 -   [We categorized 327 user onboarding experiences into 9 ui patterns](http://www.appcues.com/blog/we-categorized-327-user-onboarding-experiences-into-9-ui-patterns/)
 -   [Strategies for onboarding new users](https://blog.intercom.com/strategies-for-onboarding-new-users/)
+
+</div>

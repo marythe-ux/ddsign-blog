@@ -23,7 +23,7 @@ Cuando McCay realizó la presentación de Gertie, esta consistió en él mismo i
 
 En la creación del dibujo animado, McCay creó varias técnicas que serían utilizadas posteriormente por futuros animadores. Una de esas técnicas era reutilizar algunos dibujos para ahorrar trabajo (esta técnica se sigue utilizando hoy día). Se preocupó especialmente de la coordinación de movimientos de Gertie, como la respiración o la tierra que temblaba cuando caminaba debido a su gran peso.  
 
-  
+<div class="fuentes">
 
 #### FUENTES:
 
@@ -35,3 +35,5 @@ Moscardó Guillén, José. El cine de animación. Alianza Editorial. Madrid,1997
 [Wikipedia: Gertie el dinosaurio](http://es.wikipedia.org/wiki/Gertie_el_dinosaurio)
 
 [Cómic Little Nemo](http://www.comicstriplibrary.org/browse/results?character=33)
+
+</div>

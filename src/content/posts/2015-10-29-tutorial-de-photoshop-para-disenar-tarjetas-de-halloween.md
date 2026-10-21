@@ -118,7 +118,7 @@ Ahora se trata de conseguir el efecto de una vela encendida que ilumina la cara 
 [![paso-18](/wp-content/uploads/2015/10/paso-18.jpg)](/wp-content/uploads/2015/10/paso-18.jpg)  
 Mediante la opción "añadir texto“ puedes aprovechar para enviar un saludo a tus amigos. Una vez colocado el texto en su sitio, contempla el resultado final en todo su esplendor.  
 
-  
+<div class="fuentes">
 
 #### POST INVITADO
 
@@ -131,3 +131,5 @@ Mediante la opción "añadir texto“ puedes aprovechar para enviar un saludo a 
   
 
 **María Sánchez** es editora en OvernightPrints. La investigación sobre la evolución de la industria en el sector de la impresión, las nuevas tecnologías de impresión y las estrategias de marketing con los medios impresos y la producción de la neutralidad climática son sus temas preferidas. En su tiempo libre le gusta viajar y descubrir culturas extranjeras.
+
+</div>

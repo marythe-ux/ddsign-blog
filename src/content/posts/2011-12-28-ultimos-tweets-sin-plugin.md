@@ -91,6 +91,10 @@ Hay que poner un div con el id followers donde queramos mostrar el número de se
 
 **Username** tiene  seguidores en Twitter.
 
+<div class="fuentes">
+
 #### fuentes
 
 [Display your tweets without a plugin (kristarella.com)](http://www.kristarella.com/2009/01/display-your-tweets-without-a-plugin/) [Mostrar los followers de Twitter con jQuery (http://ceslava.com)](http://ceslava.com/blog/mostrar-los-followers-de-twitter-con-jquery/)
+
+</div>

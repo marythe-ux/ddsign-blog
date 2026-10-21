@@ -43,6 +43,10 @@ Utilizando las nuevas propiedades CSS3 flexbox, comenta [Jorge Rojo](https://www
 
 Revisa este Pen [STICKY FOOTER 5](http://codepen.io/ddsign/pen/wGBBep/) by maría ([@ddsign](http://codepen.io/ddsign)) en [CodePen](http://codepen.io).
 
+<div class="fuentes">
+
 #### COLABORADORES
 
 -   [Jorge Rojo, el programador de los diseñadores](http://jorgerojo.com/ "Jorge Rojo, el programador de los diseñadores")
+
+</div>

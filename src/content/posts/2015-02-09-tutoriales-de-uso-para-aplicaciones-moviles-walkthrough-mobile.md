@@ -33,9 +33,13 @@ Diversos ejemplos de estas guías y tutoriales se pueden consultar en estas reco
 [Pttrns (Walkthroughs)](http://www.pttrns.com/categories/16-walkthroughs "Walkthroughs")  
 [Panel de Pinterest: Mobile UI Help Walkthrough](https://www.pinterest.com/wicar/mobile-ui-help-walkthrough/ "Mobile UI Help Walkthrough")
 
+<div class="fuentes">
+
 #### FUENTES
 
 -   [Techcrunch](http://techcrunch.com/2012/12/28/rethinking-the-mobile-app-walkthrough/ "Techcrunch")
 -   [Appburst](http://www.appburst.com/app-features/tutorial-walkthrough-system "Appburst")
 -   [Iridize](http://www.iridize.com/blog/problems-with-interactive-walkthrough-guidance-systems/ "Iridize")
 -   [Max Rudberg](http://blog.maxrudberg.com/post/38958984259/if-you-see-a-ui-walkthrough-they-blew-it "Max Rudberg")
+
+</div>

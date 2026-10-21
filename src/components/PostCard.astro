@@ -11,7 +11,7 @@ const n = getComments(postSlug(post)).length;
   <div class="titular"><a href={url}><h2>{post.data.title}</h2></a></div>
   <div class="fecha">
     <time class="entry-date" datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-    {n > 0 && <CommentIcon count={n} href={`${url}#comentarios`} />}
+    <CommentIcon count={n} href={n > 0 ? `${url}#comentarios` : url} />
   </div>
   {post.data.tags.length > 0 && <div class="tags">{post.data.tags.map((t) => <a href={`/tag/${tagSlug(t)}/`}>{t}</a>)}</div>}
   {img && <a class="thumb" href={url} tabindex="-1"><img src={img} alt="" loading="lazy" decoding="async"></a>}

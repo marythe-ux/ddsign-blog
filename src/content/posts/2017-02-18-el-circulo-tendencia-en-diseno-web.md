@@ -45,8 +45,12 @@ Podemos ver múltiples ejemplos del uso de círculos como elementos de diseño, 
 
 [![Captura de pantalla 2017-02-18 a las 18.17.41](/wp-content/uploads/2017/02/Captura-de-pantalla-2017-02-18-a-las-18.17.41.png)](http://www.canta-lapelicula.es/audition)
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Design Trends — Rounds](https://medium.muz.li/design-trends-rounds-981100876305?ref=webdesignernews.com#.4qwf39t51)
 -   [Best examples of circular trends in modern web design](http://www.cssauthor.com/40-best-examples-of-circular-trends-in-modern-web-design/)
 -   [Circular Elements in Websites](http://www.awwwards.com/circular-elements-in-websites.html)
+
+</div>

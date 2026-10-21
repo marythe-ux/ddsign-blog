@@ -38,6 +38,10 @@ Si nos resultara complicado o quisiéramos ver una simulación previa de cómo v
 
 **ADVERTENCIA:** Text-shadow no funciona en explorer 7, este navegador ignoraría la declaración sin más.
 
+<div class="fuentes">
+
 #### Más sobre text-shadow:
 
 [W3C en español, text-shadow](http://www.spanish-translator-services.com/espanol/t/007/text-shadow.html "text-shadwo") [CSSBlog, propiedad text-shadow](http://www.cssblog.es/css-text-shadow-propiedad/ "text-shadow (CSSBlog)") [Herramienta simuladora de text-shadow](http://www.westciv.com/tools/shadows/ "Herramienta simuladora de text-shadow") [Crear efectos de sombras como en photoshop con text-shadow](http://www.css3.info/preview/text-shadow/ "Text-shadow, Photoshop like effects using CSS")
+
+</div>

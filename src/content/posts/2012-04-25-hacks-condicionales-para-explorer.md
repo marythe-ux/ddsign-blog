@@ -20,6 +20,10 @@ O para versiones anteriores pero también incluyendo la que indicamos:
 
 También podemos escribir la condicional de modo que sea para versiones superiores a la indicada:
 
+<div class="fuentes">
+
 #### fuentes
 
 [Quirksmode.org](http://www.quirksmode.org/css/condcom.html)
+
+</div>

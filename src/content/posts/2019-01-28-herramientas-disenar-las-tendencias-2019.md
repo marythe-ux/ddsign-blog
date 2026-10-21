@@ -30,8 +30,12 @@ Con los bloques creados podemos examinar [el ratio de contraste WCAG](/2014/03/0
 
 [![blobmaker](/wp-content/uploads/2019/01/blob.jpg)](https://www.blobmaker.app) [Blobmaker](https://www.blobmaker.app/), herramienta creada por el estudio independiente [Z Creative Labs](https://www.zcreativelabs.com/). Nos facilita la tarea de crear formas orgánicas sólo utilizando un par de sliders. El resultado final nos lo podemos descargar en SVG.
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Top Graphic Design Trends 2019: Fresh Hot & Bold](https://graphicmama.com/blog/graphic-design-trends-2019/)
 -   [Top Graphic Design Trends For 2019](https://digitalsynopsis.com/design/digital-graphic-design-trends-2019/)
 -   [2019 Design Trends Guide](https://www.behance.net/gallery/71481981/2019-Design-Trends-Guide)
+
+</div>

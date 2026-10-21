@@ -46,7 +46,7 @@ Se presenta la tabla con varias columnas (las que quepan en el layout), las que 
 
 [![filtro](/wp-content/uploads/2015/01/filtro.jpg)](/wp-content/uploads/2015/01/filtro.jpg)  
 
-  
+<div class="fuentes">
 
 #### FUENTES
 
@@ -56,3 +56,5 @@ Se presenta la tabla con varias columnas (las que quepan en el layout), las que 
 -   [Filamentgroup](https://github.com/filamentgroup/tablesaw "Tablesaw")
   
 -   [Foolproof](http://www.foolproof.co.uk/thinking/making-product-comparison-work-on-mobile "Foolproof")
+
+</div>

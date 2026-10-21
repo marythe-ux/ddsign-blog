@@ -48,8 +48,12 @@ Con los Styles Tiles que se presentan se pueden hacer cambios y tomas de decisio
 
 [Faster Design Decisions with Style Tiles](http://vimeo.com/35216558) from [DrupalCamp Austin](http://vimeo.com/drupalcampaustin) on [Vimeo](http://vimeo.com).
 
+<div class="fuentes">
+
 #### Fuentes:
 
 [Style Tiles](http://styletil.es/)
 
 [Style tiles and how they work (A list Apart)](http://alistapart.com/article/style-tiles-and-how-they-work)
+
+</div>

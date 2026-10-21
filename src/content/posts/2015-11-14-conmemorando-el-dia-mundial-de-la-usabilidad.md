@@ -59,8 +59,12 @@ Por todo lo expuesto, es realmente importante la usabilidad en diseño web. ¡Fe
 
 > [![Copy_0004](/wp-content/uploads/2015/11/Copy_0004.jpg)](/wp-content/uploads/2015/11/Copy_0004.jpg) Un diseño sin usabilidad no sirve de nada..., esto me recuerda siempre este anuncio de Pirelli. (“La Potencia sin control no sirve de nada” o “Power is nothing without control”. Slogan de Pirelli, slogan desarrollado en 1994 por Young & Rubicam.) ¿Tú usarías zapatos de tacón para correr la maratón?
 
+<div class="fuentes">
+
 #### FUENTES
 
 -   [Usabilidad según la Wikipedia](https://es.wikipedia.org/wiki/Usabilidad "Usabilidad-Wikipedia")
 -   [Nosolousabilidad](http://www.nosolousabilidad.com/manual/1.htm "No Solo Usabilidad")
 -   [Sidar](http://www.sidar.org/recur/desdi/traduc/es/visitable/quees/usab.htm "Sidar")
+
+</div>

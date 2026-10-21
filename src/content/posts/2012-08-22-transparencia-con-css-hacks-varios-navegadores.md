@@ -27,9 +27,11 @@ opacity: 0.5;
 
   
 
-  
+<div class="fuentes">
 
 #### FUENTE:
 
   
 [Cross Browser Opacity (CSS Tricks)](http://css-tricks.com/snippets/css/cross-browser-opacity/)
+
+</div>

@@ -13,6 +13,10 @@ Es un libro muy interesante que trata acerca del diseño web. El libro abre así
 
 Se describe el tipo de trabajo, el briefing, el proceso de diseño, hablará sobre los bocestos, las herramientas, el color, las tipografías, el layout...
 
+<div class="fuentes">
+
 #### fuente
 
 [Designing for the Web](http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-for-the-web "Designing for the Web")
+
+</div>

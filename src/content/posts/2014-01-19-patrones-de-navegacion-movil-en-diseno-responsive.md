@@ -35,6 +35,10 @@ El menú incluye las entradas principales y cuando queremos ir a un subnivel nos
 
 ![carrusel](/wp-content/uploads/2014/01/carrusel.jpg) Como menú utilizamos un carrusel con las diferentes categorías que vamos moviendo con los dedos hacia la derecha y hacia la izquierda.
 
+<div class="fuentes">
+
 #### Fuentes
 
 He querido traducir y resumir el genial artículo de [Complex Navigation Patterns for Responsive Design](http://bradfrostweb.com/blog/web/complex-navigation-patterns-for-responsive-design/ "bradfrostweb.com/")
+
+</div>

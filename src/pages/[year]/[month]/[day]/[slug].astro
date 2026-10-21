@@ -5,9 +5,13 @@ import CommentIcon from '../../../../components/CommentIcon.astro';
 import { getPosts, postParts, postUrl, formatDate, tagSlug, excerpt, firstImage, getComments, postSlug } from '../../../../lib/blog';
 export async function getStaticPaths() {
   const all = await getPosts();
-  return all.map((post, i) => ({ params: postParts(post), props: { post, newer: all[i - 1], older: all[i + 1] } }));
+  return all.map((post, i) => {
+    const first = post.data.tags[0];
+    const related = first ? all.filter((p) => p !== post && p.data.tags.includes(first)).slice(0, 5) : [];
+    return { params: postParts(post), props: { post, newer: all[i - 1], older: all[i + 1], related } };
+  });
 }
-const { post, newer, older } = Astro.props;
+const { post, newer, older, related } = Astro.props;
 const { Content } = await render(post);
 const comments = getComments(postSlug(post));
 const roots = comments.filter((c) => !c.parent || !comments.some((x) => x.id === c.parent));
@@ -22,10 +26,17 @@ const fmt = (s: string) => formatDate(new Date(s + 'Z'));
     <div class="titular"><h1>{post.data.title}</h1></div>
     <div class="fecha">
       <time class="entry-date" datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-      {comments.length > 0 && <CommentIcon count={comments.length} href="#comentarios" />}
+      <CommentIcon count={comments.length} href={comments.length > 0 ? '#comentarios' : undefined} />
     </div>
     {post.data.tags.length > 0 && <div class="tags">{post.data.tags.map((t) => <a href={`/tag/${tagSlug(t)}/`}>{t}</a>)}</div>}
     <div class="entry-content"><Content /></div>
+
+    {related.length > 0 && (
+      <div class="relacionados">
+        <h2><span class="icon icon-relacionados" aria-hidden="true"></span>Post relacionados</h2>
+        {related.map((r) => <h3><a href={postUrl(r)}>{r.data.title}</a></h3>)}
+      </div>
+    )}
 
     {flat.length > 0 && (
       <section id="comentarios">

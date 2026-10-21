@@ -19,6 +19,10 @@ Una vez que hayas hecho esto, al editar una entrada verás en tu panel de contro
 
 La única cosa que queda por hacer para que se muestren es editar el fichero de las entradas, o bien *index.php* o bien *loop.php* dependiendo de tu tema, añadiendo este código donde quieras que se muestre la imagen destacada.
 
+<div class="fuentes">
+
 #### Fuentes
 
 Extraído y traducido de Smashing Magazine: [Better Image Management with WordPress](http://wp.smashingmagazine.com/2011/05/26/better-image-management-practices-with-wordpress/#more-83357)
+
+</div>

@@ -81,6 +81,10 @@ Los criterios de selección que el jurado ha utilizado para seleccionar los blog
 -   Recursos Ofrecidos
   
 
+<div class="fuentes">
+
 #### FUENTES
 
 -   [Premios Educa 2015](http://www.educa.net/premios-educa-2015/)
+
+</div>

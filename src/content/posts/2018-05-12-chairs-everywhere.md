@@ -58,6 +58,10 @@ El estudio ha recibido varios premios, entre ellos, Talentos Design de la Fundac
 [Vanesa Moreno Serna](http://shop.ooomydesign.com/about-us) (1979) tiene un grado en arquitectura e ingeniería del diseño. Su estilo ha evolucionado, en virtud de la gran curiosidad y automotivación, a través de un gran número de disciplinas: desde diseño de muebles, productos, interiorismo de viviendas y locales comerciales, hasta áreas como fotografía, escultura y performance.  
  La versatilidad de su trabajo le ha permitido colaborar con estudios de renombre como El Ultimo Grito (Berlín), Luis Eslava (España), Curro Claret (España) y No Sheet (Serbia), su trabajo ha sido publicado en algunas de las revistas y blogs más prominentes (Deezen, Designboom, Naif Magazine, Design Milk) y ha trabajado para empresas como Nogal Yecla, Ofita y Josep Ros.
 
+<div class="fuentes">
+
 #### MÁS INFORMACIÓN
 
 -   Web del proyecto, [Chairs Everywhere](http://www.chairs-everywhere.com/)
+
+</div>

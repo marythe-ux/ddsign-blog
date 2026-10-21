@@ -12,6 +12,10 @@ Con Initializr podrás generar tu sitio web totalmente personalizable basado en 
 
 Ahora en Cuble han publicado un [manual de Initializr en español](http://www.cuble.es/blog/manual-de-initializr/ "Manual de Initializr").
 
+<div class="fuentes">
+
 #### En este blog:
 
 [Initializr, crear una plantilla de HTML5 de forma rápida y sencilla](/2011/02/13/initializr-crear-una-plantilla-de-html5-de-forma-rapida-y-sencilla/)
+
+</div>

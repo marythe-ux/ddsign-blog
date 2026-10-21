@@ -42,6 +42,10 @@ width: 180px;
 overflow:hidden;
 }
 
+<div class="fuentes">
+
 #### FUENTE
 
 [How To: Add Text over Featured Images](http://wplift.com/how-add-text-featured-images-different-scenarios "How to add text to featured images")
+
+</div>

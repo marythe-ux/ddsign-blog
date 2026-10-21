@@ -35,7 +35,7 @@ Ser accesible es un requisito para las agencias gubernamentales de muchos paíse
 
 Cuidando la accesibilidad seremos capaces de servir contenidos web a una mayor audiencia, y aumentamos la usabilidad del sitio, incluso para la gente sin minusvalía.  
 
-  
+<div class="fuentes">
 
 #### Leer más sobre este tema
 
@@ -43,3 +43,5 @@ Cuidando la accesibilidad seremos capaces de servir contenidos web a una mayor a
 [Estándares web (*Maestros del web)*](http://www.maestrosdelweb.com/editorial/estandaresweb/)  
 [Estándares web, *Mozilla*.](https://developer.mozilla.org/es/Est%C3%A1ndares_Web)  
 [W3C, España](http://w3c.es/Consorcio/)
+
+</div>

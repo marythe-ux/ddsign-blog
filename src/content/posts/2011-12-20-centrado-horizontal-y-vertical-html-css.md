@@ -31,6 +31,10 @@ border: 1px solid #ccc;
 background-color: #f3f3f3;
 }
 
+<div class="fuentes">
+
 #### fuente
 
 [Centrar capa en horizontal y en vertical (Notasweb.com)](http://notasweb.com/articulo/css/centrar-capa-en-horizontal-y-en-vertical.html "Centrar capa en horizontal y en vertical")
+
+</div>

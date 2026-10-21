@@ -52,8 +52,12 @@ Si quieres crear un carrusel accesible te interesará este artículo: [Anatomy o
 [Viens-là](http://www.viens-la.com/ "viens-la")  
 [![vien-la](/wp-content/uploads/2015/11/vien-la.jpg)](http://www.viens-la.com/)
 
+<div class="fuentes">
+
 #### FUENTES
 
 -   [UXMovement](http://uxmovement.com/navigation/why-users-arent-clicking-your-home-page-carousel/)
 -   [Should I use a carousel?](http://shouldiuseacarousel.com/)
 -   [Designing effective carousels](http://www.nngroup.com/articles/designing-effective-carousels/)
+
+</div>

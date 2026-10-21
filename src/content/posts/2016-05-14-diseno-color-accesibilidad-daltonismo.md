@@ -52,6 +52,8 @@ Aparte de tener en cuenta cómo se muestran los colores, es muy curioso leer el 
 
 Tenbuuren cita apps que han tenido en cuenta a los daltónicos habilitando un modo para ellos bastante interesante, como es el caso de [Trello](https://trello.com/) (aplicación para organización de tareas) o [Two Dots](http://weplaydots.com/twodots.html) (un juego que se basa en la conexión de puntos de colores). En el primero, Trello, han establecido un sistema de patrones y en el segundo han añadido símbolos a los colores.
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Diseñar para daltónicos (Torres Burriel)](http://www.torresburriel.com/weblog/2015/07/28/disenar-para-daltonicos/)
@@ -61,3 +63,5 @@ Tenbuuren cita apps que han tenido en cuenta a los daltónicos habilitando un mo
 -   [Why all designers need to understand color blindness](https://99designs.es/blog/tips/designers-need-to-understand-color-blindness/)
 -   [The color of empathy is not flat: Insights to Color Blindness & Design.](http://www.cooper.com/journal/2015/6/the-color-of-empathy-is-not-flat-insights-to-color-blindness-amp-design-nbsp)
 -   [Ratio de contraste de color en diseño web](/2014/03/01/ratio-de-contraste-de-color-en-diseno-web/)
+
+</div>

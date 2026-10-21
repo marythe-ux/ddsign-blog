@@ -56,8 +56,12 @@ Tiene un público de más de 60.000 personas mensuales y una comunidad que sigue
 
 [Guía de color,](http://color.finnthewebdesigner.com/) referencia rápida para seleccionar colores.
 
+<div class="fuentes">
+
 #### FUENTES
 
 -   [20 Free Material Design UI Templates & Icon Sets (Speckyboy.com)](http://speckyboy.com/2014/11/19/free-material-design-gui-templates-icon-sets/ "free material design gui templates icon sets")
 -   [Material Design resources (CSS author)](http://www.cssauthor.com/material-design-resources/ "Material Design Resources")
 -   [Material Design (Wikipedia)](< https://es.wikipedia.org/wiki/Material_design> "Material Design")
+
+</div>

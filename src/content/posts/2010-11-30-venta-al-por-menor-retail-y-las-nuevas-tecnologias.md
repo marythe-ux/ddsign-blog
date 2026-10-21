@@ -10,6 +10,10 @@ Interesante presentación sobre integración de las últimas tecnologías y la v
 
 **[PSFK Futuro del Retail | 2010](http://www.slideshare.net/xfisselier/psfk-futuro-del-retail-2010 "PSFK Futuro del Retail | 2010")** from **[Xavier Fisselier](http://www.slideshare.net/xfisselier)**
 
+<div class="fuentes">
+
 #### Fuentes
 
 [Markarina](http://www.markarina.com/tendencias-en-el-retail/)
+
+</div>

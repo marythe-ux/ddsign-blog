@@ -61,9 +61,11 @@ Imaginemos que con el ejemplo anterior hayamos creado un bloque de imágenes ale
 
 Existen plugins de wordpress para añadir imágenes aleatorias a nuestra cabecera, pero al menos yo no vi ninguno que dejara crearlas para cualquier sección de nuestra web, por eso me ha gustado mucho este código que nos da bastante libertad.  
 
-  
+<div class="fuentes">
 
 #### FUENTES
 
   
 [Ma.tt](http://ma.tt/scripts/randomimage/ "Matt")
+
+</div>

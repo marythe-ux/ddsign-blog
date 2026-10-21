@@ -30,7 +30,7 @@ Entre las características de *HTML5 Boilerplate* destacamos:
 
   
 
-  
+<div class="fuentes">
 
 #### FUENTES
 
@@ -38,3 +38,5 @@ Entre las características de *HTML5 Boilerplate* destacamos:
 [Initializr](http://initializr.com/)  
 [HTML5 Boilerplate](http://html5boilerplate.com/)  
 [HTML5](http://www.w3.org/html/logo/)
+
+</div>

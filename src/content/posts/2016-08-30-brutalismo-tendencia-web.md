@@ -49,6 +49,8 @@ El brutalismo es como una forma de rebelión a las otras tendencias existentes d
 
 El brutalismo es un rechazo a sabiendas de todo lo que es atractivo, lo agradable a la vista, y cómodo. Se apoya la fealdad, en elementos sin procesar en una especie de rebelión contra las mejores prácticas de diseño que tienen el propósito de hacernos sentir como en casa y nos da algo estéticamente agradable. Todo lo contrario. El brutalismo es convincente como alternativa a los límites establecidos del convencionalismo en diseño. Puede ser una inspiración para los diseñadores para pensar en nuevas reglas, nuevos estilos. Es una reflexión. El brutalismo hace considerar otro tipo de experiencia de uso, diseño que lleve directamente al usuario a su objetivo, que este no quede agazapado por elementos y efectos.
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Medium.com](https://medium.com/@WebdesignerDepot/the-rise-and-rise-of-the-brutalist-design-trend-14d2993a9c4d#.398ob5mnk)
@@ -57,3 +59,5 @@ El brutalismo es un rechazo a sabiendas de todo lo que es atractivo, lo agradabl
 -   [Killscreen.com](https://killscreen.com/articles/problem-brutalist-web-design/)
 -   [Trademarkmedia.com](https://www.trademarkmedia.com/blog/post/is-brutalism-the-future-of-web-design)
 -   [Brutalistwebsites](http://brutalistwebsites.com/)
+
+</div>

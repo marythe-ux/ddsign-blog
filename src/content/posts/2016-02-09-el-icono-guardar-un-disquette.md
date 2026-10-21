@@ -19,9 +19,13 @@ Actualmente tanto en páginas webs, como intranets, aplicaciones móviles y dem�
 
 ¿Quizás lo más inteligente sea crear botones sólo con texto, que pongan “guardar”? No sé lo que opináis vosotros, yo de quedarme con uno solo, prefiero el “tick”, me simboliza algo positivo, que todo va bien… y guardar es esencialmente eso.
 
+<div class="fuentes">
+
 #### RELACIONADOS
 
 -   [Is this the perfect save icon?](https://medium.com/@etchuk/is-this-the-perfect-save-icon-9651129bda85?ref=webdesignernews.com#.r7r999y0b "is this the perfect save icon?")
 -   [New generation of Save icon that is not a “disk”?](http://graphicdesign.stackexchange.com/questions/323/new-generation-of-save-icon-that-is-not-a-disk "new generation of save icon")
 -   [Save icon: Still a floppy disk?](http://stackoverflow.com/questions/1019573/save-icon-still-a-floppy-disk "Save icon still a floppy disk")
 -   [Surprise! Kids don't know what the save icon stands for](http://www.cnet.com/news/surprise-kids-dont-know-what-the-save-icon-stands-for/ "Kids don't know what the save icon stands for")
+
+</div>

@@ -12,6 +12,8 @@ Esta imagen podría ser un *Moodboard* de una posible web de estilo minimalista 
 
 [![moodboard clean](/wp-content/uploads/2012/07/mood.png)](/wp-content/uploads/2012/07/mood.png)
 
+<div class="fuentes">
+
 #### Más sobre este tema
 
 [17 Insipiring Moodboards (Inspiredology)](http://inspiredology.com/inspiring-moodboards/ "Inspiring moodboards")
@@ -19,3 +21,5 @@ Esta imagen podría ser un *Moodboard* de una posible web de estilo minimalista 
 [Why Mood Boards Matter (webdesignerdepot)](http://www.webdesignerdepot.com/2008/12/why-mood-boards-matter/ "Why Moodboards Matter")
 
 [Mood Boarding Methods](http://www.onextrapixel.com/2012/02/10/mood-boarding-methods-for-web-designers/ "Mood Boarding methods (Oneextrapixel)")
+
+</div>

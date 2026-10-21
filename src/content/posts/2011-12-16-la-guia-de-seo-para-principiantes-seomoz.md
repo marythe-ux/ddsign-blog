@@ -9,9 +9,11 @@ tags: ["seo", "posicionamiento"]
 
 En la web de Seomoz tienen publicada una **guía de SEO** para principiantes que es de fácil lectura gracias a su clara estructura y su agradable diseño. A mí me gusta mucho. Además se puede bajar en PDF para poderla leer con calma en nuestro equipo.  
 
-  
+<div class="fuentes">
 
 #### FUENTE
 
   
 [The Free Beginnner's Guide to SEO](http://www.seomoz.org/beginners-guide-to-seo "The Free Beginner's Guide to SEO")
+
+</div>

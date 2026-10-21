@@ -106,6 +106,8 @@ Mientras me documentaba para escribir este post encontré que en [Monotype](http
 
 Pues pienso que las Variable Font van a dar mucha guerra y mucha satisfacción. Abren un mundo nuevo de posibilidades. ¡Gracias y bienvenidas!
 
+<div class="fuentes">
+
 #### FUENTES Y RELACIONADOS
 
 -   [Vídeo: TYPO labs 2017](https://graffica.info/typolabs-2017-variable-fonts/)
@@ -114,3 +116,5 @@ Pues pienso que las Variable Font van a dar mucha guerra y mucha satisfacción. 
 -   [User Interfaces for Variable Fonts (A list Apart)](https://alistapart.com/article/user-interfaces-for-variable-fonts)
 -   [Tutorial: The Future of Web Fonts looks Awesome](https://youtu.be/ZXx_U7SsZeg)
 -   [Casos de estudio. Underware.](https://www.underware.nl/case-studies/)
+
+</div>

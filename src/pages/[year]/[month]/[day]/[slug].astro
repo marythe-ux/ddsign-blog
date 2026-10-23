@@ -22,7 +22,7 @@ roots.forEach((c) => walk(c, 0));
 const isCode = (p: string) => /^\s*<[a-zA-Z/?!]/.test(p);
 const fmt = (s: string) => formatDate(new Date(s + 'Z'));
 ---
-<Base title={post.data.title} description={excerpt(post, 30)} image={firstImage(post)} type="article">
+<Base title={post.data.title} description={excerpt(post, 30)} image={firstImage(post)} type="article" published={post.data.date} tags={post.data.tags} commentCount={comments.length}>
   <article class="postItem" data-pagefind-body>
     <div class="titular" data-pagefind-meta={`date:${formatDate(post.data.date)}`}><h1 data-pagefind-meta="title">{post.data.title}</h1></div>
     <div class="fecha" data-pagefind-ignore>

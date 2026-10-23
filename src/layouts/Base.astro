@@ -1,12 +1,25 @@
 ---
 import '../styles.css';
 import { SITE, getPosts, tagSlug } from '../lib/blog';
-interface Props { title?: string; description?: string; image?: string; current?: string; sidebar?: boolean; type?: 'website' | 'article' }
-const { title, description = SITE.description, image, current, sidebar = true, type = 'website' } = Astro.props;
+interface Props { title?: string; description?: string; image?: string; current?: string; sidebar?: boolean; type?: 'website' | 'article'; published?: Date; tags?: string[]; commentCount?: number }
+const { title, description = SITE.description, image, current, sidebar = true, type = 'website', published, tags = [], commentCount = 0 } = Astro.props;
 const shareImage = new URL(image ?? '/theme/ddsign-share.png', Astro.site);
 const shareTitle = title ?? 'Ddsign · Blog de comunicación digital, diseño y experiencia de usuario';
 const fullTitle = title ? `${title} « ${SITE.title}` : `${SITE.title} · comunicación digital y experiencia de usuario`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
+const author = { '@type': 'Person', name: 'María Rey', url: new URL('/about/', Astro.site).href };
+const publisher = { '@type': 'Organization', name: 'Ddsign', url: Astro.site!.href, logo: { '@type': 'ImageObject', url: new URL('/theme/ddsign-share.png', Astro.site).href } };
+const jsonLd = type === 'article' ? {
+  '@context': 'https://schema.org', '@type': 'BlogPosting', headline: title, description,
+  url: canonical.href, mainEntityOfPage: canonical.href, inLanguage: 'es',
+  image: image ? new URL(image, Astro.site).href : undefined,
+  datePublished: published?.toISOString(), author, publisher,
+  keywords: tags.length ? tags.join(', ') : undefined, commentCount,
+  isPartOf: { '@type': 'Blog', name: 'Ddsign', url: Astro.site!.href },
+} : Astro.url.pathname === '/' ? {
+  '@context': 'https://schema.org', '@type': 'Blog', name: 'Ddsign', url: Astro.site!.href,
+  description, inLanguage: 'es', author, publisher,
+} : null;
 const counts = new Map<string, number>();
 (await getPosts()).forEach((p) => p.data.tags.forEach((t) => counts.set(t, (counts.get(t) ?? 0) + 1)));
 const topTags = [...counts].sort((a, b) => b[1] - a[1]).slice(0, 20).sort((a, b) => a[0].localeCompare(b[0], 'es'));
@@ -37,6 +50,7 @@ const year = new Date().getFullYear();
   <meta name="twitter:title" content={shareTitle}>
   <meta name="twitter:description" content={description}>
   <meta name="twitter:image" content={shareImage}>
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap">

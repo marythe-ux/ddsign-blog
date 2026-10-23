@@ -49,7 +49,7 @@ const fmt = (s: string) => formatDate(new Date(s + 'Z'));
                 {c.url ? <a href={c.url} rel="nofollow ugc noopener" target="_blank">{c.author}</a> : <span>{c.author}</span>}
                 <time datetime={c.date}>{fmt(c.date)}</time>
               </div>
-              {c.text.split('\n\n').map((para) => <p>{para}</p>)}
+              {c.text.split('\n\n').map((para) => /^\s*<[a-zA-Z/?!]/.test(para) ? <p class="code">{para}</p> : <p>{para}</p>)}
             </li>
           ))}
         </ul>

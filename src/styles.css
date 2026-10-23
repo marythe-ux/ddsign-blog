@@ -200,3 +200,5 @@ ul.commentlist p{margin:.8em 0;white-space:pre-line}
   .menu-row{flex-direction:row;align-items:center;justify-content:space-between}
   #searchBox{width:25%}
 }
+
+ul.commentlist p.code{font-family:var(--mono);font-size:.85em;margin:.15em 0;color:var(--muted);overflow-wrap:anywhere}

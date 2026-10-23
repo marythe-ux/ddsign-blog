@@ -222,7 +222,7 @@
    "author": "admin",
    "url": "http://ddsign.es/",
    "date": "2012-08-02T06:05:13",
-   "text": "Pues repasemos.\n\nYo en mi footer.php, justo antes de cerrar la etiqueta BODY tengo estas llamadas: &lt;script type=&quot;text/javascript&quot; src=&quot;http://twitter.com/javascripts/blogger.js&quot;&gt;&lt;/script&gt;\n\n&lt;script type=&quot;text/javascript&quot; src=&quot;http://twitter.com/1/statuses/user_timeline/oyonarteweb.json?callback=twitterCallback2&amp;count=5&quot;&gt;&lt;/script&gt; Tú en la segundo en vez de &quot;oyonarteweb&quot; que es mi usuario de Twitter, has de poner el tuyo. En mi sidebar.php (que es donde quiero que se me muestren mis últimas entradas en Twitter, aquí en la columna de la derecha) pongo este código: &lt;ul id=&quot;twitter_update_list&quot;&gt;&lt;li&gt;Twitter feed loading&lt;/li&gt;&lt;/ul&gt; Debería funcionarte. Vete diciéndome."
+   "text": "Pues repasemos.\n\nYo en mi footer.php, justo antes de cerrar la etiqueta BODY tengo estas llamadas: <script type=\"text/javascript\" src=\"http://twitter.com/javascripts/blogger.js\"></script>\n\n<script type=\"text/javascript\" src=\"http://twitter.com/1/statuses/user_timeline/oyonarteweb.json?callback=twitterCallback2&count=5\"></script> Tú en la segundo en vez de \"oyonarteweb\" que es mi usuario de Twitter, has de poner el tuyo. En mi sidebar.php (que es donde quiero que se me muestren mis últimas entradas en Twitter, aquí en la columna de la derecha) pongo este código: <ul id=\"twitter_update_list\"><li>Twitter feed loading</li></ul> Debería funcionarte. Vete diciéndome."
   },
   {
    "id": 1965,
@@ -308,7 +308,7 @@
    "author": "admin",
    "url": "http://ddsign.es/",
    "date": "2012-06-19T18:35:27",
-   "text": "Hola, se puede hacer así:\n\n&lt;li&gt;\n\n&lt;a href=&quot;http://www.facebook.com/sharer.php?u=&lt;?php the_permalink();?&gt;&quot;&amp;t=&quot;&lt;?php the_title(); ?&gt;&quot; class=&quot;a_facebook&quot;\n\ntitle=&quot;compartir en facebook&quot;&gt;&lt;/a&gt;\n\n&lt;/li&gt;"
+   "text": "Hola, se puede hacer así:\n\n<li>\n\n<a href=\"http://www.facebook.com/sharer.php?u=<?php the_permalink();?>\"&t=\"<?php the_title(); ?>\" class=\"a_facebook\"\n\ntitle=\"compartir en facebook\"></a>\n\n</li>"
   },
   {
    "id": 595,
@@ -1082,7 +1082,7 @@
    "author": "Sara",
    "url": "http://mageeklab.com",
    "date": "2014-04-28T13:47:41",
-   "text": "Nosotros hemos desarrollado un plugin para Twitter, que además te permite customizar la apariencia. Si queréis echarle un vistazo ;) http://codecanyon.net/item/twitter-slider-user-card-for-wordpress/5871651?WT.ac=new_item&amp;WT.seg_1=new_item&amp;WT.z_author=MaGeekLab?ref=MaGeekLab"
+   "text": "Nosotros hemos desarrollado un plugin para Twitter, que además te permite customizar la apariencia. Si queréis echarle un vistazo ;) http://codecanyon.net/item/twitter-slider-user-card-for-wordpress/5871651?WT.ac=new_item&WT.seg_1=new_item&WT.z_author=MaGeekLab?ref=MaGeekLab"
   }
  ],
  "herramientas-para-combinar-color": [
@@ -1608,7 +1608,7 @@
    "author": "Jayce",
    "url": "http://zacbis.com",
    "date": "2016-05-01T23:55:03",
-   "text": "We wish to thank you just as before for the wonderful ideas you gave Janet when preparing her own potsagradu-te research and also, most importantly, regarding providing many of the ideas in a blog post. If we had known of your site a year ago, we&#8217;d have been rescued from the unwanted measures we were taking. Thanks to you."
+   "text": "We wish to thank you just as before for the wonderful ideas you gave Janet when preparing her own potsagradu-te research and also, most importantly, regarding providing many of the ideas in a blog post. If we had known of your site a year ago, we’d have been rescued from the unwanted measures we were taking. Thanks to you."
   },
   {
    "id": 145254,

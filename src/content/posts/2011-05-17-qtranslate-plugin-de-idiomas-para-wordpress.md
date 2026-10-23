@@ -39,3 +39,10 @@ También se pueden traducir las etiquetas, las categorías, etc. El contenido de
 Con qTranslate tendrías por defecto inglés, alemán y chino. Pero como comentaba puedes añadir los idiomas que necesites siempre y cuando consigas el fichero .mo de los textos de Wordpress traducidos. Habría que subir estos últimos en la carpeta de idiomas (/wp-content/languages). Al instalar este nuevo idioma es importante que su nombre local coincida con el nombre del fichero instalado para que el plugin pueda reconocerlo automáticamente. La verdad es que hasta puedes subir el icono de la *banderita* de ese idioma extra que hayas incorporado. (Queda genial en el panel, todo organizado).
 
 También se puede, si hace falta, editar texto en el PHP utilizando diferentes etiquetas para las diversas entradas de idiomas, por ejemplo puede que esto te haga falta a la hora de traducir los textos de algunos botones:
+
+```php
+<input id="searchsubmit" type="submit"
+ value="<?php _e('[:en]SEARCH [:es]BUSCAR'); ?> />
+```
+
+En la base de datos se guarda todo el contenido junto separado por tags, cosa que a mí no me parece ningún inconveniente.

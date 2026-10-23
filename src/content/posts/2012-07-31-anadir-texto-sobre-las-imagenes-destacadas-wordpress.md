@@ -11,14 +11,34 @@ Así es para que el texto sea la **categoría del post:**
 
 ![mascotas](/wp-content/uploads/2012/07/mascotas.jpg)
 
-cat\_name;
+```php
+<div class="post-thumb">
+<span class="new-wrapper">
+
+<?php
+//Display post thumbnail
+
+if ( has_post_thumbnail()) : the_post_thumbnail('thumbnail'); endif;
 
 ?>
 
- 
+<span>
+<?php
+// Get the Name of First Category
+
+$category = get_the_category();
+echo $category[0]->cat_name;
+
+?>
+
+</span>
+</span>
+ </div>
+```
 
 Y mediante CSS se consigue que el texto de la categoría aparezca delante de la imagen porque al elemento que contiene el texto (el spam) se le da posición absoluta:
 
+```css
 .new-wrapper span {
 	background-color: black;
 	color:white;
@@ -41,6 +61,7 @@ position:relative;
 width: 180px;
 overflow:hidden;
 }
+```
 
 <div class="fuentes">
 

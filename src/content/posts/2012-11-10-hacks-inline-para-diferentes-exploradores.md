@@ -6,41 +6,44 @@ tags: ["css", "tutorial", "hacks"]
 ---
 Hacks para Internet Explorer
 
-/\* para IE6 \*/
-\*html .someClass {color:red}
-/\* para IE7 \*/
-\*:first-child + html .someClass {color:red}
-/\* para IE7 CSS \*/
+```css
+/* para IE6 */
+*html .someClass {color:red}
+/* para IE7 */
+*:first-child + html .someClass {color:red}
+/* para IE7 CSS */
 .someElement {
-color:blue; /\* all browsers \*/
-\*color:red
+color:blue; /* all browsers */
+*color:red
 }
-/\* inline IE8 CSS \*/
+/* inline IE8 CSS */
 .someElement {
-color:crimson; /\* all browsers \*/
-color:black\\0/; /\* IE 8 & 9 \*/
+color:crimson; /* all browsers */
+color:black\0/; /* IE 8 & 9 */
 }
-/\* IE9 CSS \*/
-:root .someElement { color:green\\0/IE9; } /\* IE9 \*/
+/* IE9 CSS */
+:root .someElement { color:green\0/IE9; } /* IE9 */
+```
 
 Hacks para Firefox:
 
-/\* FireFox 3 y syuperiores \*/
-html>/\*\*/body .someClass, x:-moz-any-link, x:default {left:1em !important}
+```
+/* FireFox 3 y syuperiores */
+html>/**/body .someClass, x:-moz-any-link, x:default {left:1em !important}
+```
 
 Hacks para Chrome y Safari
 
+```css
 body:nth-of-type(1) div.caja {
 background: blue;
 }
-
-  
+```
 
 <div class="fuentes">
 
 #### FUENTES:
 
-  
 [ww.fix-css.com](http://www.fix-css.com/cheat-sheets/css-hacks/)
 
 </div>

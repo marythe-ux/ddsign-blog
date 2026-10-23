@@ -8,17 +8,49 @@ Si al maquetar una web nos encontramos con que una serie de elementos no se ven 
 
 Este condicional sería así, dentro de los corchetes ponemos la url de la hoja de estilos CSS especial para explorer:
 
+```html
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+```
+
 Podemos identificar el navegador exacto para el que es la excepción:
 
+```html
 Para explorer 7
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
 
 Para explorer 8
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+```
 
 O puede ser para versiones anteriores a la que indicamos. En este ejemplo de abajo la condición es sólo para versiones anteriores a la 9:
 
+```html
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+```
+
 O para versiones anteriores pero también incluyendo la que indicamos:
 
+```html
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+```
+
 También podemos escribir la condicional de modo que sea para versiones superiores a la indicada:
+
+```html
+<!--[if gt IE 6]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+```
 
 <div class="fuentes">
 

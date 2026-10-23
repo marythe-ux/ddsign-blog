@@ -10,12 +10,17 @@ Se consigue del modo siguiente combinando html y css. En resumen consiste en dar
 
 **HTML**
 
-	
-
-Contenido del div
+```html
+<body>
+<div id="mydiv">
+	<p>Contenido del div</p>
+</div>
+</body>
+```
 
 **CSS**
 
+```css
 p {
 margin: 1em;
 }
@@ -25,11 +30,12 @@ top: 50%;
 left: 50%;
 width:30em;
 height:18em;
-margin-top: -9em; /\*en negativo la mitad de la altura (height)\*/
-margin-left: -15em; /\*en negativo la mitad del ancho (width)\*/
+margin-top: -9em; /*en negativo la mitad de la altura (height)*/
+margin-left: -15em; /*en negativo la mitad del ancho (width)*/
 border: 1px solid #ccc;
 background-color: #f3f3f3;
 }
+```
 
 <div class="fuentes">
 

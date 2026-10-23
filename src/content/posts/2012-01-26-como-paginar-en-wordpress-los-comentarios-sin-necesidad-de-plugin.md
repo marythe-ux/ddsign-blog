@@ -12,13 +12,23 @@ Los comentarios a un post en Wordpress se pueden paginar. Wordpress desde la ver
 
 Nota: si tu estás usando las funciones *previous\_comments\_link* y *next\_comments\_link* podrías reemplazarlas por la paginación.
 
+```php
+<div class="pagination">
+    <?php paginate_comments_links(); ?>
+</div>
+```
+
 De modo opcional: también puedes modificar el texto que se muestra para el *Previous* y *Next links*. Por defecto se mostrarán como **« Previous** y **Next »** con las flechitas. Esto quedaría así, pero podrías modificarlo al gusto:
 
- '‹ Previous', 'next\_text' => 'Next ›')
+```php
+<?php paginate_comments_links(
+array('prev_text' => '&lsaquo; Previous', 'next_text' => 'Next &rsaquo;')
 ); ?>
+```
 
 3\. A esto podemos darle el siguiente estilo CSS por ejemplo:
 
+```css
 .pagination {
 clear:both;
 padding:20px 0;
@@ -48,6 +58,7 @@ padding:6px 9px 5px 9px;
 background: #3279BB;
 color:#fff;
 }
+```
 
 Está genial poder hacer esto sin plugin alguno. Este código lo he visto esta mañana y ya lo he probado y funciona de maravilla.
 

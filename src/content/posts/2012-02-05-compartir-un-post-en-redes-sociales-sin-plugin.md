@@ -15,20 +15,29 @@ Hay que transformar la URL que estas redes utilizan normalmente para agregar con
   
 Si miras en la barra de estado de tu navegador mientras estás sobre un botón de compartir en Twitter ves que el enlace es algo así:
 
+```
+
 http://twitter.com/home?status=
+```
 
 Y después de la palabra "status" suelen poner el texto que se comparte. En mi caso quiero pasar el título de la entrada, el enlace a mi entrada y el nombre de mi blog.  Así que escribo lo siguiente (NOMBRE DE MI BLOG + TÍTULO ENTRADA + ENLACE ENTRADA):
 
-[Compartir en Twitter](<http://twitter.com/home?status= Ddsign - \<?php the_title\(\); ?\> \<?php echo get_permalink\(\) ?\>> "compartir en twitter")
+```php
+<a class="a_twitter" title="compartir en twitter" href="http://twitter.com/home?status= Ddsign - <?php the_title(); ?> <?php echo get_permalink() ?>">Compartir en Twitter</a>
+```
 
 ## Compartir en Facebook
 
 Para compartir una entrada en Facebook el enlace que se usa es este:
 
-[Compartir en facebook](<http://facebook.com/sharer/sharer.php?u=\<?php echo get_permalink\(\) ?\>> "compartir en facebook")
+```php
+<a class="a_facebook" title="compartir en facebook" onClick="window.open('http://facebook.com/sharer/sharer.php?u=<?php echo get_permalink() ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="http://facebook.com/sharer/sharer.php?u=<?php echo get_permalink() ?>">Compartir en facebook</a>
+```
 
 ## Compartir en Linkedin
 
 Para una entrada con Linkedin, he encontrado unas pistas de cómo se construye en enlace en [W3cGallery.com](http://www.w3cgallery.com/w3c-blog/other-help/how-to-add-linkedin-share-link-on-blogwebsite) y lo he transformado así para pasar el enlace, el título y el nombre de mi blog:
 
-[Compartir en Linkedin](<http://www.linkedin.com/shareArticle?mini=true&url=\<?php echo get_permalink\(\) ?\>&title=\<?php the_title\(\); ?\>&source=Ddsign> "compartir en linkedin")
+```php
+<a class="a_linkedin" title="compartir en linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink() ?>&title=<?php the_title(); ?>&source=Ddsign">Compartir en Linkedin</a>
+```

@@ -14,18 +14,23 @@ No podemos embeber una tipografía de la cual no tengamos los derechos.
 
 Esta es la declaración en nuestra hoja de estilos, se le da un nombre para la fuente (en este caso 'MyWebFont') y después se dan las rutas a los ficheros de cada formato:
 
+```css
+
 @font-face {
 	font-family: 'MyWebFont';
-	src: url('webfont.eot'); /\* IE9 \*/
-	src: url('webfont.eot?#iefix') format('embedded-opentype'), /\* IE6-IE8 \*/
-	     url('webfont.woff') format('woff'), /\* Navegadores Modernos \*/
-	     url('webfont.ttf')  format('truetype'), /\* Safari, Android, iOS \*/
-	     url('webfont.svg#svgFontName') format('svg'); /\* iOS \*/
+	src: url('webfont.eot'); /* IE9 */
+	src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('webfont.woff') format('woff'), /* Navegadores Modernos */
+	     url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('webfont.svg#svgFontName') format('svg'); /* iOS */
 	}
+```
 
 Después en el estilo que se quiera utilizar esta fuente se hace así;
 
+```css
 p.texto{ font-family: 'MyWebFont', 'Arial Narrow', sans-serif; }
+```
 
 ## Formatos de las fuentes y su transformación
 

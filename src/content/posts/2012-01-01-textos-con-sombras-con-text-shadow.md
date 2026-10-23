@@ -6,7 +6,9 @@ tags: ["css", "html", "tutorial"]
 ---
 En CSS3 existe una propiedad llamada **"text-shadow"** que permite añadir una sombra a cada letra de un texto. En su forma más simple, sería así:
 
+```
 h3 {text-shadow: 0.1em 0.1em #333}
+```
 
 El código anterior le está dando este estilo de sombra al texto de un H3. El primer valor es para mover la sombra (con respecto al texto) en el eje X, es decir, un poco a la derecha (0.1em) y el segundo, desplaza la sombra en el eje Y, en este caso hacia abajo (0.1em), el último valor es para el color de esta sombra(#333). De este modo la sombra sería nítida.
 
@@ -16,7 +18,9 @@ Quedaría así:
 
 Podemos crear un efecto de sombra borrosa. Para esto la cantidad de imprecisión se da como otro desplazamiento. Cuanto mayor sea el desplazamiento (tercer valor, 0.2em) más borrosa será esta sombra.
 
+```
 h3 {text-shadow: 0.1em 0.1em 0.2em #333}
+```
 
 Quedaría así:
 
@@ -24,7 +28,9 @@ Quedaría así:
 
 Es posible poner más de una sombra.
 
+```
 h3{text-shadow: -1px -1px white, 1px 1px #333}
+```
 
 Le pasamos varias declaraciones separadas por comas: desplazamiento en X + desplazamiento en Y + color, desplazamiento en X + desplazamiento en Y + color.
 

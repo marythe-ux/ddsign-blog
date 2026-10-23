@@ -14,12 +14,14 @@ Aunque embeber tipografías en nuestras webs es una buena solución para poder u
 
 Un truco que he visto recientemente y que me alegrado muchísimo es el de [Allcreatives.net](http://allcreatives.net/2009/12/05/smoother-font-face-embedding-in-ie-7-8/ "moother-font-face-embedding-in-ie-7-8/") que hacen lo siguiente:
 
+```css
 h2, p {
 font: 36px/44px 'OldSansBlackRegular', Arial, sans-serif;
 letter-spacing: 0;
 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
 zoom:1;
 }
+```
 
 Le añaden un filtro especial y le adjuntan una imagen (que es trnasparente) y le ponen el zoom a 1. Está muy bien.
 

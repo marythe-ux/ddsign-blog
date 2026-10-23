@@ -28,16 +28,18 @@ Bajo la previsualización de la fuente tipográfica seleccionada aparece el cód
 
 Añadiríamos ese código al head de nuestra web:
 
+```html
 Probando Edge Web Fonts
-
-# Lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+<script type="text/javascript" src="http://use.edgefonts.net/inconsolata.js"></script>
+<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
 Aliquam tristique libero sed risus consectetur bibendum/p>
+```
 
 ## Preparar la CSS
 
 Después de esto, haríamos una nueva hoja de estilos style.css y nos aseguramos de que esté enlazada, como en el ejemplo de arriba, en la mirmsa carpeta que el fichero HTML. Tendríamos algo así para indicar que los H1 han de mostrarse con la tipografía elegida.
 
+```css
 body {
 width:700px;
 margin: 0 auto;
@@ -47,13 +49,16 @@ text-align: center;
 h1 {
 font-family: inconsolata, serif;
 }
+```
 
 ## Cómo usar varias de estas fuentes en mi web
 
 Apuntan en la propia web de [Adobe Edge Web Fonts](http://www.edgefonts.com/ "Edgefonts.com") que se haría del siguiente modo. Varía la url a la que apunta esl script.
 
-\# Dos familias tipográficas
+```
+# Dos familias tipográficas
 use.edgefonts.net/averia-libre;bree-serif.js
+```
 
 <div class="fuentes">
 

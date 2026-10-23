@@ -21,19 +21,35 @@ Las query contienen dos componentes:
 
   
 
+```html
+<link rel="stylesheet" type="text/css"
+  media="screen and (max-device-width: 480px)"
+  href="estilos.css" />
+```
+
 ## Cómo llamar a las media queries
 
-Enlazando una hoja de estilo CSS en el HEAD de nuestra página web:  
+Enlazando una hoja de estilo CSS en el HEAD de nuestra página web:
 
-Importando a una hoja de estilo CSS:  
+```html
+<link rel="stylesheet" type="text/css"
+  media="screen and (max-device-width: 480px) and (resolution: 163dpi)"
+  href="estilos.css" />
+```
 
+Importando a una hoja de estilo CSS:
+
+```css
 @import url( estilos.css ) screen and ( min-width: 600px );
+```
 
 Dentro de una hoja CSS para modificar algún estilo concreto para el caso que define la media query:
 
+```css
 @media screen and (max-device-width: 480px) {
   .column {
     float: none;
   }
 
 }
+```

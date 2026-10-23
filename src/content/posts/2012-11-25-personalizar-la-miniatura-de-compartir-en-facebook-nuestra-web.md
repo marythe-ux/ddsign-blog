@@ -15,6 +15,10 @@ Para controlar que se muestre una imagen concreta en Facebook cuando nuestra web
 -   Colocamos en el head de la web el siguiente código. La url es la ruta a la imagen que hemos subido previamente a nuestro servidor.
   
 
+```html
+<meta property="og:image"content="http://site.com/path/sharedimage.png" />
+```
+
 Con todo esto cuando añadan la dirección de nuestra web a Facebook saldrá acompañada de esa imagen.  
 
 <div class="fuentes">

@@ -8,29 +8,35 @@ Si en tu web tienes un copyright con fecha, podrías hacer que el año se actual
 
 Para esto deberás añadir este código en el fichero **functions.php**
 
-function comicpress\_copyright() {
+```php
+function comicpress_copyright() {
 global $wpdb;
-$copyright\_dates = $wpdb->get\_results("
+$copyright_dates = $wpdb->get_results("
 SELECT
-YEAR(min(post\_date\_gmt)) AS firstdate,
-YEAR(max(post\_date\_gmt)) AS lastdate
+YEAR(min(post_date_gmt)) AS firstdate,
+YEAR(max(post_date_gmt)) AS lastdate
 FROM
 $wpdb->posts
 WHERE
-post\_status = 'publish'
+post_status = 'publish'
 ");
 $output = '';
-if($copyright\_dates) {
-$copyright = "© " . $copyright\_dates\[0\]->firstdate;
-if($copyright\_dates\[0\]->firstdate != $copyright\_dates\[0\]->lastdate) {
-$copyright .= '-' . $copyright\_dates\[0\]->lastdate;
+if($copyright_dates) {
+$copyright = "&copy; " . $copyright_dates[0]->firstdate;
+if($copyright_dates[0]->firstdate != $copyright_dates[0]->lastdate) {
+$copyright .= '-' . $copyright_dates[0]->lastdate;
 }
 $output = $copyright;
 }
 return $output;
 }
+```
 
 Y en el php para el pie de página, **footer.php** pondríamos esto:
+
+```php
+<?php echo comicpress_copyright(); ?>
+```
 
 Esta función añadirá el siguiente texto:
 

@@ -61,23 +61,28 @@ Las fuentes se componen de diferentes ejes y sus correspondientes valores en CSS
 
 Se declara la fuente:
 
+```css
 @font-face {
   font-family: 'AmstelvarAlpha';
   src: url('../fonts/AmstelvarAlpha-VF.ttf');
 }
+```
 
-Este sería un ejemplo de como usar una de las propiedades CSS:  
+Este sería un ejemplo de como usar una de las propiedades CSS:
 
+```css
 #font-amstelvar {
   font-family: 'AmstelvarAlpha';
   font-variation-settings: 'wdth' 400, 'wght' 98;
 }
+```
 
-Y así se hace un fallback por si el sistema no soporta la Variable Font.  
+Y así se hace un fallback por si el sistema no soporta la Variable Font.
 
+```css
 @supports (font-variations-settings: 'wdth' 200) {
   @font-face {
-    /\* https://github.com/TypeNetwork/Amstelvar \*/
+    /* https://github.com/TypeNetwork/Amstelvar */
     font-family: AmstelvarAlpha;
     src: url('../fonts/AmstelvarAlpha-VF.ttf');
     font-weight: normal;
@@ -89,6 +94,7 @@ Y así se hace un fallback por si el sistema no soporta la Variable Font.
     font-variation-settings: 'wdth' 400, 'wght' 98;
   }
 }
+```
 
 ## Software de diseño y prototipado con Variable font
 

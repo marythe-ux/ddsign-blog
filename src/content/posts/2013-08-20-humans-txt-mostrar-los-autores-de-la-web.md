@@ -17,6 +17,10 @@ Su nombre, *humans*, es un guiño al archivo anterior llamado *robots.txt* que e
 
 Como su nombre indica, humans.txt, se trata de un fichero de formato de texto (.txt). Se ha de colocar en la raíz de la web, al lado del fichero robots.txt. Debe estar siempre en letras minúsculas y ser codificado con UTF-8 para evitar problemas con los caracteres multilingües. Si es posible se ha de añadir en el en el tag author.
 
+```html
+<link type=”text/plain” rel=”author” href=”http://sitioweb/humans.txt”/>
+```
+
 No es obligatorio hacerlo, pero es una nueva iniciativa para conocer a los autores de las webs. En el fichero humans.txt se puede poner a todo el equipo implicado: desarrolladores, diseñadores, gestores de contenidos, al SEO, etc.
 
 Se tiende hacia la unificación, Abel Cabans definió los campos básicos que puede llevar este archivo y se puede consultar en el fichero [humans.txt](http://humanstxt.org/humans.txt "guía humans.txt") de la web humanstxt.org.

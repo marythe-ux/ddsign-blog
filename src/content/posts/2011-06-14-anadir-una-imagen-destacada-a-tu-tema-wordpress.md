@@ -8,16 +8,20 @@ tags: ["wordpress", "tutorial"]
 
 Las imágenes destacadas (*featured images*) existen en WordPress desde la versión 2.9, así que para usarlas no se necesita ninguna clase de plugin extra. Muchos temas ya las tienen habilitadas y otros no. Para habilitar las imágenes destacadas simplemente hay que abrir el fichero *functions.php* y pegar este código:
 
-add\_theme\_support ('post-thumbnails');
-set\_post\_thumbnail\_size(115, 115)
+```
+add_theme_support ('post-thumbnails');
+set_post_thumbnail_size(115, 115)
+```
 
-  
-  
 La primera línea le dice a WordPress que habilite las imágenes destacadas. La segunda le pasa el tamaño por defecto para esas imágenes.
 
 Una vez que hayas hecho esto, al editar una entrada verás en tu panel de control en la columna de la derecha una casilla de imágenes destacadas.
 
 La única cosa que queda por hacer para que se muestren es editar el fichero de las entradas, o bien *index.php* o bien *loop.php* dependiendo de tu tema, añadiendo este código donde quieras que se muestre la imagen destacada.
+
+```php
+<?php the_post_thumbnail();?>
+```
 
 <div class="fuentes">
 

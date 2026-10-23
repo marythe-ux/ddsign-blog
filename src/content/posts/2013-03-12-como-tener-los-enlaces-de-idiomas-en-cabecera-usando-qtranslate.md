@@ -8,16 +8,28 @@ tags: ["wordpress", "plugin"]
 
 Cuando instalamos qTranslate en nuestro tema WordPress lo que hacemos intuitivamente es obtener los enlaces a cada idioma mediante un widget. Sin embargo no suele ser lo más efectivo, dado que el widget ha de ser colocado en un sidebar o similar. Ya sea por usabilidad o por convención, normalmente lo que nos apetece es tener los enlaces de idiomas en el header (cabecera) de nuestra web.
 
-Podemos hacerlo copiando el siguiente código en nuestro **header.php** (la plantilla que escribe el código de la cabecera)  
+Podemos hacerlo copiando el siguiente código en nuestro **header.php** (la plantilla que escribe el código de la cabecera)
 
-  
-Con el código anterior conseguiríamos mostrar las banderitas de los idiomas que hayamos seleccionado. Si queremos que muestre el icono de la bandera y el texto debemos entonces poner el siguiente código:  
+```php
+<?php echo qtrans_generateLanguageSelectCode('image'); ?>
+```
 
-  
-Si preferimos sólo el texto, sin iconos:  
+Con el código anterior conseguiríamos mostrar las banderitas de los idiomas que hayamos seleccionado. Si queremos que muestre el icono de la bandera y el texto debemos entonces poner el siguiente código:
 
-  
-Y ya si queremos que se muestre un desplegable:  
+```php
+<?php echo qtrans_generateLanguageSelectCode('both'); ?>
+```
 
-  
+Si preferimos sólo el texto, sin iconos:
+
+```php
+<?php echo qtrans_generateLanguageSelectCode('text'); ?>
+```
+
+Y ya si queremos que se muestre un desplegable:
+
+```php
+<?php echo qtrans_generateLanguageSelectCode('dropdown'); ?>
+```
+
 Si te apetece profundizar más sobre este tema pásate por las FAQS de la documentación de [qTranslate](http://www.qianqin.de/qtranslate/forum/viewtopic.php?f=3&t=3&p=16#p16 "Faqs qTranslate")

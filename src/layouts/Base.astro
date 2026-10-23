@@ -1,8 +1,10 @@
 ---
 import '../styles.css';
 import { SITE, getPosts, tagSlug } from '../lib/blog';
-interface Props { title?: string; description?: string; image?: string; current?: string; sidebar?: boolean }
-const { title, description = SITE.description, image, current, sidebar = true } = Astro.props;
+interface Props { title?: string; description?: string; image?: string; current?: string; sidebar?: boolean; type?: 'website' | 'article' }
+const { title, description = SITE.description, image, current, sidebar = true, type = 'website' } = Astro.props;
+const shareImage = new URL(image ?? '/theme/ddsign-share.png', Astro.site);
+const shareTitle = title ?? 'Ddsign · Blog de comunicación digital, diseño y experiencia de usuario';
 const fullTitle = title ? `${title} « ${SITE.title}` : `${SITE.title} · comunicación digital y experiencia de usuario`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const counts = new Map<string, number>();
@@ -21,9 +23,20 @@ const year = new Date().getFullYear();
   <link rel="canonical" href={canonical}>
   <link rel="icon" href="/theme/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/feed.xml">
-  <meta property="og:title" content={title ?? SITE.title}>
+  <meta property="og:site_name" content="Ddsign">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:type" content={type}>
+  <meta property="og:url" content={canonical}>
+  <meta property="og:title" content={shareTitle}>
   <meta property="og:description" content={description}>
-  {image && <meta property="og:image" content={new URL(image, Astro.site)}>}
+  <meta property="og:image" content={shareImage}>
+  {!image && <meta property="og:image:width" content="1200">}
+  {!image && <meta property="og:image:height" content="630">}
+  <meta property="og:image:alt" content={image ? shareTitle : 'Logotipo de Ddsign'}>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={shareTitle}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content={shareImage}>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap">

@@ -1,9 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import NotFound from '../components/NotFound.astro';
 ---
 <Base title="Página no encontrada">
-  <article class="postItem">
-    <div class="titular"><h1>Esta página no existe</h1></div>
-    <div class="entry-content"><p>Puede que la dirección haya cambiado. Vuelve a la <a href="/">portada</a> o busca por <a href="/tag/">etiquetas</a>.</p></div>
-  </article>
+  <NotFound />
 </Base>

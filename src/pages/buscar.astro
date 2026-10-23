@@ -1,9 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
+import NotFound from '../components/NotFound.astro';
 ---
 <Base title="Buscar" sidebar={true}>
   <div id="archive-title"><span id="search-heading">Buscar en el blog</span><span class="corners"></span></div>
   <div id="search-results" aria-live="polite"></div>
+  <template id="nf-tpl"><NotFound /></template>
   <noscript><p class="entry-content">El buscador necesita JavaScript activado.</p></noscript>
   <script is:inline>
     (async function () {
@@ -21,11 +23,19 @@ import Base from '../layouts/Base.astro';
         var base = document.documentElement.dataset.base || '';
         var pagefind = await import(base + '/pagefind/pagefind.js');
         var res = await pagefind.search(q);
-        if (!res.results.length) { box.innerHTML = '<p class="search-status">No hay ninguna entrada que coincida. Prueba con otra palabra o mira los <a href="' + base + '/tag/">temas</a>.</p>'; return; }
-        var data = await Promise.all(res.results.slice(0, 30).map(function (r) { return r.data(); }));
+        var norm = function (t) { return (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); };
+        var terms = norm(q).split(/[^a-z0-9]+/).filter(function (t) { return t.length >= 2; });
+        var all = await Promise.all(res.results.slice(0, 60).map(function (r) { return r.data(); }));
+        // Solo entradas que contienen de verdad cada palabra (admite plurales y variantes: se compara la raíz)
+        var data = all.filter(function (d) {
+          var text = norm((d.meta && d.meta.title) + ' ' + d.content);
+          return terms.every(function (t) { return text.indexOf(t.length > 5 ? t.slice(0, t.length - 2) : t) !== -1; });
+        });
+        if (!data.length) { box.innerHTML = ''; box.appendChild(document.getElementById('nf-tpl').content.cloneNode(true)); return; }
+        var total = data.length; data = data.slice(0, 30);
         box.innerHTML = '';
         var count = document.createElement('p'); count.className = 'search-status';
-        count.textContent = res.results.length === 1 ? '1 entrada encontrada' : res.results.length + ' entradas encontradas' + (res.results.length > 30 ? ' (se muestran las 30 más relevantes)' : '');
+        count.textContent = total === 1 ? '1 entrada encontrada' : total + ' entradas encontradas' + (total > 30 ? ' (se muestran las 30 más relevantes)' : '');
         box.appendChild(count);
         data.forEach(function (d) {
           var art = document.createElement('article'); art.className = 'postItem';

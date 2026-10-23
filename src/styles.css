@@ -202,3 +202,24 @@ ul.commentlist p{margin:.8em 0;white-space:pre-line}
 }
 
 ul.commentlist p.code{font-family:var(--mono);font-size:.85em;margin:.15em 0;color:var(--muted);overflow-wrap:anywhere}
+
+/* Página "Uy!" (404 y búsqueda sin resultados), del tema original */
+.icon-ico_404::before{content:"\e909"}
+.notfound{border:2px solid #7affff;margin:0 0 2em;padding:2em 1.5em 3em;color:#f02aff}
+.notfound h1{font-weight:900;font-size:44px;line-height:1.5em;margin:0}
+.notfound h1 .icon{color:var(--blue);font-weight:normal;font-size:48px;display:inline-block;vertical-align:middle}
+.notfound h2{font-size:26px;font-weight:900;line-height:1.2em;padding-bottom:36px;margin:0;text-wrap:balance}
+.notfound h3{font-size:22px;color:var(--blue);font-weight:700;line-height:1.5em;padding-bottom:20px;margin:0}
+.notfound ul{margin:0;padding:0;list-style:none;font-size:22px;font-weight:700;display:flex;flex-wrap:wrap;gap:4px 14px}
+.notfound ul li a.rosa{color:#e74a91}
+.notfound ul li a.verde{color:#acef4c}
+.notfound ul li a.celeste{color:#6de6e5}
+.notfound ul li a.naranja{color:#f68f51}
+@media (min-width:768px){
+  .notfound{padding:3.5em 5em 8em}
+  .notfound h1{font-size:60px}
+  .notfound h1 .icon{font-size:65px;margin-left:-30px}
+  .notfound h2{font-size:37px;padding-bottom:50px}
+  .notfound h3{font-size:30px;padding-bottom:30px}
+  .notfound ul{font-size:30px;gap:4px 10px}
+}

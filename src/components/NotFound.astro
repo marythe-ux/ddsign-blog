@@ -1,0 +1,16 @@
+---
+// Bloque "Uy!" del tema original (include_error.php)
+interface Props { text?: string }
+const { text = 'Lo siento pero lo que estás buscando no se encuentra aquí' } = Astro.props;
+---
+<div class="notfound">
+  <h1><span class="icon icon-ico_404" aria-hidden="true"></span> Uy!</h1>
+  <h2>{text}</h2>
+  <h3>Términos más buscados</h3>
+  <ul>
+    <li><a class="rosa" href="/tag/diseno/">#diseño</a></li>
+    <li><a class="verde" href="/tag/movil/">#móvil</a></li>
+    <li><a class="celeste" href="/tag/usabilidad/">#usabilidad</a></li>
+    <li><a class="naranja" href="/tag/recursos/">#recursos</a></li>
+  </ul>
+</div>

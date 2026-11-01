@@ -4,4 +4,4 @@ slug: "contacto"
 ---
 ¿Quieres comentar algo, proponer una colaboración o simplemente saludar? Escríbeme a:
 
-**[info@ddsign.es](mailto:info@ddsign.es?subject=Contacto%20blog)**
+**[hello@ddsign.es](mailto:hello@ddsign.es?subject=Contacto%20blog)**
